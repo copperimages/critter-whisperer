@@ -1,0 +1,21 @@
+YAMNet
+Copyright 2019 The TensorFlow Authors
+
+This directory contains the YAMNet TensorFlow.js graph model published by
+Google for the AudioSet embedding model. The model card lists the weights
+under the Apache License, Version 2.0:
+
+https://www.kaggle.com/models/google/yamnet
+
+The model code in training/third_party/yamnet is from the TensorFlow Model
+Garden (research/audioset/yamnet), also Apache License 2.0:
+
+https://github.com/tensorflow/models/tree/master/research/audioset/yamnet
+
+TensorFlow.js (vendor/tf.min.js) is Copyright 2024 Google LLC and is
+Apache License 2.0.
+
+Google Perch 2.0 (bird-vocalization-classifier) is Apache License 2.0
+(https://www.kaggle.com/models/google/bird-vocalization-classifier/tensorFlow2/perch_v2)
+but is not bundled. The published artifact is 410.28 MB, which is too large
+for a phone browser.

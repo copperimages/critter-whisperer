@@ -371,6 +371,66 @@ h2 {
   line-height: 1.4;
 }
 
+.listen-go, .listen-toggle {
+  display: block;
+  width: 100%;
+  min-height: 64px;
+  margin: 0 0 18px;
+  padding: 14px 18px;
+  border: 0;
+  border-radius: 18px;
+  background: var(--green);
+  color: var(--paper);
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.listen-toggle.is-on { background: var(--night); }
+
+.listen-note {
+  margin: 0 0 14px;
+  color: var(--brown);
+  font-size: 0.95rem;
+}
+
+.matches { list-style: none; margin: 12px 0 0; padding: 0; }
+
+.match {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 84px;
+  margin: 0 0 10px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 16px;
+  background: var(--paper);
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+}
+
+.match-name { display: block; font-weight: 700; color: var(--night); }
+
+.match-meta { display: block; margin-top: 2px; color: var(--brown); font-size: 0.92rem; }
+
+.meter {
+  height: 8px;
+  margin-top: 8px;
+  border-radius: 99px;
+  background: var(--leaf);
+  overflow: hidden;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  background: var(--green);
+}
+
+.listen-status { min-height: 1.4em; margin: 0 0 8px; color: var(--muted); }
+
 .linkish {
   min-height: 48px;
   padding: 8px 0;

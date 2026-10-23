@@ -6,7 +6,19 @@ The site is static. Species and photos are listed in `data/species.json`, the Al
 
 Live site: https://copperimages.github.io/critter-whisperer/
 
+The Listen button runs on the phone. Audio is not uploaded. A result is a possible match, not a certain identification.
+
 © 2026 Rachael Aswege. Critter Whisperer™. All rights reserved for app design, text and code. Recordings and photos belong to their credited creators under their own licenses.
+
+## Sound identification
+
+Google Perch 2.0 is Apache 2.0 and allows commercial use and redistribution. The license is on the official model card: https://www.kaggle.com/models/google/bird-vocalization-classifier/tensorFlow2/perch_v2. The published file is 410 MB, which is too large for a phone browser, so Perch is not included.
+
+The listener uses YAMNet, also Apache 2.0, from the official model card at https://www.kaggle.com/models/google/yamnet (TensorFlow Hub now points there). The model code is the TensorFlow Model Garden copy under `training/third_party/yamnet`. The on-device files are the TensorFlow.js graph in `models/yamnet` (about 16 MB) plus a small linear head in `models/id-head.json`. TensorFlow.js itself is vendored in `vendor/tf.min.js`. Together they stay under 30 MB. The browser caches those files and keeps the microphone audio on the device.
+
+YAMNet hears from about 125 Hz to 7,500 Hz. Very low grunts and very high insect songs are weakly represented, so katydids, coneheads, and some crickets are less reliable.
+
+Training audio is research-grade iNaturalist sound, licensed only CC0, CC BY, or CC BY-SA, capped at 40 observations per species. Background clips are speech, traffic, wind, and a few common birds under those same licenses. Recordists are listed in `data/training-manifest.csv`. Raw audio is not in the repository. Windows are 0.96 seconds. Train and test are split by observation, not by window. On held-out windows the overall accuracy is about 38 percent across the classes, so the screen always says these are possible matches. Species with fewer than 12 commercial-safe observations are marked as less reliable. Collinses' Mountain Chorus Frog produced no usable windows. Four pairs share one match because they sound alike and some have very few recordings: broad-winged and prairie tree crickets, lesser and greater anglewings, handsome and red-headed meadow katydids, and Riley's and Cassin's 13-year cicadas.
 
 ## Credits
 

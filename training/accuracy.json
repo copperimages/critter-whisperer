@@ -1,0 +1,364 @@
+{
+  "files": 667,
+  "windows": 3525,
+  "train_windows": 2781,
+  "test_windows": 744,
+  "per_species_files_used": {
+    "acris-crepitans": 15,
+    "acris-gryllus": 14,
+    "anaxipha-rosamacula": 3,
+    "anaxyrus-americanus": 24,
+    "anaxyrus-fowleri": 26,
+    "anaxyrus-terrestris": 19,
+    "background-bluejay": 5,
+    "background-cardinal": 6,
+    "background-carolina-wren": 6,
+    "background-robin": 6,
+    "background-traffic": 13,
+    "dryophytes-avivoca": 13,
+    "dryophytes-chrysoscelis": 25,
+    "dryophytes-cinereus": 13,
+    "dryophytes-femoralis": 10,
+    "dryophytes-gratiosus": 3,
+    "dryophytes-squirellus": 21,
+    "gastrophryne-carolinensis": 19,
+    "gryllus-rubens": 4,
+    "hapithus-saltator": 9,
+    "lithobates-catesbeianus": 21,
+    "lithobates-clamitans": 21,
+    "lithobates-grylio": 16,
+    "lithobates-palustris": 18,
+    "lithobates-sphenocephalus": 17,
+    "magicicada-tredecassini": 26,
+    "magicicada-tredecim": 9,
+    "megatibicen-grossus": 20,
+    "megatibicen-pronotalis": 27,
+    "microcentrum-retinerve": 2,
+    "microcentrum-rhombifolium": 6,
+    "neocicada-hieroglyphica": 10,
+    "neoconocephalus-triops": 2,
+    "neocurtilla-hexadactyla": 15,
+    "neoscapteriscus-borellii": 1,
+    "neotibicen-pruinosus": 25,
+    "neotibicen-robinsonianus": 11,
+    "neotibicen-tibicen": 25,
+    "oecanthus-argentinus": 2,
+    "oecanthus-latipennis": 6,
+    "orchelimum-erythrocephalum": 2,
+    "orchelimum-pulchellum": 1,
+    "pictonemobius-ambitiosus": 1,
+    "pseudacris-crucifer": 18,
+    "pseudacris-feriarum": 23,
+    "pseudacris-nigrita": 1,
+    "pterophylla-camellifolia": 13,
+    "scaphiopus-holbrookii": 13,
+    "velarifictorus-micado": 18,
+    "background-wind": 8,
+    "background-speech": 10
+  },
+  "per_species_windows": {
+    "acris-crepitans": 81,
+    "acris-gryllus": 85,
+    "anaxipha-rosamacula": 18,
+    "anaxyrus-americanus": 151,
+    "anaxyrus-fowleri": 137,
+    "anaxyrus-terrestris": 110,
+    "background-bluejay": 19,
+    "background-cardinal": 24,
+    "background-carolina-wren": 24,
+    "background-robin": 23,
+    "background-traffic": 46,
+    "dryophytes-avivoca": 78,
+    "dryophytes-chrysoscelis": 135,
+    "dryophytes-cinereus": 83,
+    "dryophytes-femoralis": 60,
+    "dryophytes-gratiosus": 18,
+    "dryophytes-squirellus": 135,
+    "gastrophryne-carolinensis": 96,
+    "gryllus-rubens": 24,
+    "hapithus-saltator": 43,
+    "lithobates-catesbeianus": 114,
+    "lithobates-clamitans": 95,
+    "lithobates-grylio": 63,
+    "lithobates-palustris": 99,
+    "lithobates-sphenocephalus": 91,
+    "magicicada-tredecassini": 151,
+    "magicicada-tredecim": 54,
+    "megatibicen-grossus": 109,
+    "megatibicen-pronotalis": 170,
+    "microcentrum-retinerve": 12,
+    "microcentrum-rhombifolium": 35,
+    "neocicada-hieroglyphica": 54,
+    "neoconocephalus-triops": 6,
+    "neocurtilla-hexadactyla": 85,
+    "neoscapteriscus-borellii": 6,
+    "neotibicen-pruinosus": 151,
+    "neotibicen-robinsonianus": 60,
+    "neotibicen-tibicen": 143,
+    "oecanthus-argentinus": 12,
+    "oecanthus-latipennis": 36,
+    "orchelimum-erythrocephalum": 12,
+    "orchelimum-pulchellum": 6,
+    "pictonemobius-ambitiosus": 6,
+    "pseudacris-crucifer": 104,
+    "pseudacris-feriarum": 146,
+    "pseudacris-nigrita": 1,
+    "pterophylla-camellifolia": 78,
+    "scaphiopus-holbrookii": 77,
+    "velarifictorus-micado": 92,
+    "background-wind": 32,
+    "background-speech": 35
+  },
+  "per_class": {
+    "acris-crepitans": {
+      "test_windows": 18,
+      "window_recall": 0.278,
+      "obs_correct": 1,
+      "obs_total": 3
+    },
+    "acris-gryllus": {
+      "test_windows": 18,
+      "window_recall": 0.611,
+      "obs_correct": 2,
+      "obs_total": 3
+    },
+    "anaxipha-rosamacula": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "anaxyrus-americanus": {
+      "test_windows": 36,
+      "window_recall": 0.667,
+      "obs_correct": 4,
+      "obs_total": 5
+    },
+    "anaxyrus-fowleri": {
+      "test_windows": 28,
+      "window_recall": 0.393,
+      "obs_correct": 4,
+      "obs_total": 5
+    },
+    "anaxyrus-terrestris": {
+      "test_windows": 30,
+      "window_recall": 0.333,
+      "obs_correct": 1,
+      "obs_total": 4
+    },
+    "background": {
+      "test_windows": 43,
+      "window_recall": 0.349,
+      "obs_correct": 3,
+      "obs_total": 11
+    },
+    "dryophytes-avivoca": {
+      "test_windows": 18,
+      "window_recall": 0.389,
+      "obs_correct": 2,
+      "obs_total": 3
+    },
+    "dryophytes-chrysoscelis": {
+      "test_windows": 26,
+      "window_recall": 0.385,
+      "obs_correct": 2,
+      "obs_total": 5
+    },
+    "dryophytes-cinereus": {
+      "test_windows": 24,
+      "window_recall": 0.083,
+      "obs_correct": 0,
+      "obs_total": 3
+    },
+    "dryophytes-femoralis": {
+      "test_windows": 12,
+      "window_recall": 0.167,
+      "obs_correct": 0,
+      "obs_total": 2
+    },
+    "dryophytes-gratiosus": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "dryophytes-squirellus": {
+      "test_windows": 30,
+      "window_recall": 0.333,
+      "obs_correct": 2,
+      "obs_total": 4
+    },
+    "gastrophryne-carolinensis": {
+      "test_windows": 17,
+      "window_recall": 0.353,
+      "obs_correct": 1,
+      "obs_total": 4
+    },
+    "gryllus-rubens": {
+      "test_windows": 6,
+      "window_recall": 0.0,
+      "obs_correct": 0,
+      "obs_total": 1
+    },
+    "hapithus-saltator": {
+      "test_windows": 10,
+      "window_recall": 0.5,
+      "obs_correct": 1,
+      "obs_total": 2
+    },
+    "lithobates-catesbeianus": {
+      "test_windows": 32,
+      "window_recall": 0.375,
+      "obs_correct": 2,
+      "obs_total": 4
+    },
+    "lithobates-clamitans": {
+      "test_windows": 20,
+      "window_recall": 0.3,
+      "obs_correct": 2,
+      "obs_total": 4
+    },
+    "lithobates-grylio": {
+      "test_windows": 9,
+      "window_recall": 0.111,
+      "obs_correct": 0,
+      "obs_total": 3
+    },
+    "lithobates-palustris": {
+      "test_windows": 22,
+      "window_recall": 0.182,
+      "obs_correct": 1,
+      "obs_total": 4
+    },
+    "lithobates-sphenocephalus": {
+      "test_windows": 11,
+      "window_recall": 0.273,
+      "obs_correct": 1,
+      "obs_total": 3
+    },
+    "lump-13-year-cicada": {
+      "test_windows": 42,
+      "window_recall": 0.476,
+      "obs_correct": 3,
+      "obs_total": 7
+    },
+    "lump-anglewing": {
+      "test_windows": 12,
+      "window_recall": 0.0,
+      "obs_correct": 0,
+      "obs_total": 2
+    },
+    "lump-meadow-katydid": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "lump-oecanthus": {
+      "test_windows": 12,
+      "window_recall": 0.167,
+      "obs_correct": 1,
+      "obs_total": 2
+    },
+    "megatibicen-grossus": {
+      "test_windows": 30,
+      "window_recall": 0.6,
+      "obs_correct": 3,
+      "obs_total": 4
+    },
+    "megatibicen-pronotalis": {
+      "test_windows": 32,
+      "window_recall": 0.625,
+      "obs_correct": 3,
+      "obs_total": 5
+    },
+    "neocicada-hieroglyphica": {
+      "test_windows": 11,
+      "window_recall": 0.182,
+      "obs_correct": 0,
+      "obs_total": 2
+    },
+    "neoconocephalus-triops": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "neocurtilla-hexadactyla": {
+      "test_windows": 24,
+      "window_recall": 0.25,
+      "obs_correct": 1,
+      "obs_total": 3
+    },
+    "neoscapteriscus-borellii": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "neotibicen-pruinosus": {
+      "test_windows": 30,
+      "window_recall": 0.5,
+      "obs_correct": 3,
+      "obs_total": 5
+    },
+    "neotibicen-robinsonianus": {
+      "test_windows": 12,
+      "window_recall": 0.25,
+      "obs_correct": 1,
+      "obs_total": 2
+    },
+    "neotibicen-tibicen": {
+      "test_windows": 30,
+      "window_recall": 0.5,
+      "obs_correct": 3,
+      "obs_total": 5
+    },
+    "pictonemobius-ambitiosus": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "pseudacris-crucifer": {
+      "test_windows": 21,
+      "window_recall": 0.333,
+      "obs_correct": 2,
+      "obs_total": 4
+    },
+    "pseudacris-feriarum": {
+      "test_windows": 30,
+      "window_recall": 0.7,
+      "obs_correct": 5,
+      "obs_total": 5
+    },
+    "pseudacris-nigrita": {
+      "test_windows": 0,
+      "window_recall": null,
+      "obs_correct": null,
+      "obs_total": 0
+    },
+    "pterophylla-camellifolia": {
+      "test_windows": 18,
+      "window_recall": 0.056,
+      "obs_correct": 0,
+      "obs_total": 3
+    },
+    "scaphiopus-holbrookii": {
+      "test_windows": 15,
+      "window_recall": 0.4,
+      "obs_correct": 2,
+      "obs_total": 3
+    },
+    "velarifictorus-micado": {
+      "test_windows": 15,
+      "window_recall": 0.0,
+      "obs_correct": 0,
+      "obs_total": 4
+    }
+  },
+  "overall_window_accuracy": 0.376,
+  "species_without_windows": [
+    "pseudacris-collinsorum"
+  ]
+}

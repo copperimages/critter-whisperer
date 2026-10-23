@@ -207,6 +207,271 @@ function detail(item) {
     </article>`;
 }
 
+const PATCH_16K = 15600;
+let idModel = null;
+let idHead = null;
+let mic = null;
+let listenGen = 0;
+
+function concatArrayBuffers(buffers) {
+  let total = 0;
+  buffers.forEach((buffer) => { total += buffer.byteLength; });
+  const out = new Uint8Array(total);
+  let offset = 0;
+  buffers.forEach((buffer) => {
+    out.set(new Uint8Array(buffer), offset);
+    offset += buffer.byteLength;
+  });
+  return out.buffer;
+}
+
+async function cachedResponse(url) {
+  const abs = new URL(url, location.href).href;
+  const cache = await caches.open("critter-listen-v1");
+  const hit = await cache.match(abs);
+  if (hit) return hit;
+  const response = await fetch(abs);
+  if (!response.ok) throw new Error(url);
+  await cache.put(abs, response.clone());
+  return response;
+}
+
+async function ensureModels() {
+  if (idModel && idHead) return;
+  if (typeof tf === "undefined") throw new Error("TensorFlow.js did not load");
+  const modelJSON = await (await cachedResponse("models/yamnet/model.json")).json();
+  const specs = tf.io.getWeightSpecs(modelJSON.weightsManifest);
+  const buffers = [];
+  for (const group of modelJSON.weightsManifest) {
+    for (const path of group.paths) {
+      buffers.push(await (await cachedResponse("models/yamnet/" + path)).arrayBuffer());
+    }
+  }
+  const artifacts = tf.io.getModelArtifactsForJSONSync(modelJSON, specs, concatArrayBuffers(buffers));
+  idModel = await tf.loadGraphModel(tf.io.fromMemory(artifacts));
+  idHead = await (await cachedResponse("models/id-head.json")).json();
+}
+
+function softmax(logits) {
+  const max = Math.max(...logits);
+  const exps = logits.map((value) => Math.exp(value - max));
+  const sum = exps.reduce((total, value) => total + value, 0);
+  return exps.map((value) => value / sum);
+}
+
+function scoreEmbedding(embedding) {
+  const z = embedding.map((value, index) => (value - idHead.mean[index]) / (idHead.scale[index] || 1e-6));
+  const logits = idHead.bias.map((bias, classIndex) => {
+    const weights = idHead.weights[classIndex];
+    let sum = bias;
+    for (let i = 0; i < z.length; i++) sum += weights[i] * z[i];
+    return sum;
+  });
+  const probs = softmax(logits);
+  return idHead.classes.map((cls, index) => ({ cls, p: probs[index] }));
+}
+
+async function embeddingOf(samples) {
+  const waveform = tf.tensor1d(samples);
+  const started = performance.now();
+  let result;
+  try {
+    result = idModel.predict(waveform);
+  } finally {
+    waveform.dispose();
+  }
+  const ms = performance.now() - started;
+  const tensors = result instanceof tf.Tensor ? [result] : Array.isArray(result) ? result : Object.values(result);
+  const embTensor = tensors.find((tensor) => tensor.shape && tensor.shape[tensor.shape.length - 1] === 1024);
+  if (!embTensor) {
+    tensors.forEach((tensor) => tensor.dispose());
+    throw new Error("The listener did not return an embedding");
+  }
+  const data = await embTensor.data();
+  const dim = 1024;
+  const patches = Math.floor(data.length / dim);
+  const start = Math.max(0, patches - 1) * dim;
+  const embedding = Array.from(data.slice(start, start + dim));
+  tensors.forEach((tensor) => tensor.dispose());
+  return { embedding, ms };
+}
+
+function resampleTo16k(samples, fromRate) {
+  if (Math.abs(fromRate - 16000) < 1) return samples;
+  const outLen = Math.max(1, Math.round(samples.length * 16000 / fromRate));
+  const out = new Float32Array(outLen);
+  const step = (samples.length - 1) / Math.max(outLen - 1, 1);
+  for (let i = 0; i < outLen; i++) {
+    const pos = i * step;
+    const index = Math.floor(pos);
+    const frac = pos - index;
+    const a = samples[index] || 0;
+    const b = samples[Math.min(index + 1, samples.length - 1)] || 0;
+    out[i] = a + (b - a) * frac;
+  }
+  return out;
+}
+
+async function identifySamples(samples) {
+  await ensureModels();
+  const audio = samples.length > PATCH_16K ? samples.subarray(samples.length - PATCH_16K) : samples;
+  const padded = audio.length === PATCH_16K ? audio : (() => {
+    const next = new Float32Array(PATCH_16K);
+    next.set(audio, PATCH_16K - audio.length);
+    return next;
+  })();
+  const { embedding, ms } = await embeddingOf(padded);
+  return { rows: scoreEmbedding(embedding), ms };
+}
+
+function matchMarkup(row) {
+  const pct = Math.max(1, Math.round(row.p * 100));
+  const note = row.cls.lumpNote ? `<span class="match-meta">${esc(row.cls.lumpNote)}</span>` : "";
+  const caution = row.cls.unreliable ? `<span class="match-meta">Few training recordings, so this match is less reliable.</span>` : "";
+  const ids = row.cls.species && row.cls.species.length ? row.cls.species : [row.cls.id];
+  return ids.map((id) => {
+    const item = findSpecies(id);
+    const name = item ? item.common : id;
+    const photo = item && item.photo && item.photo.url
+      ? `<img class="thumb" src="${esc(item.photo.url)}" alt="">`
+      : `<span class="thumb-ph" aria-hidden="true">${esc(name.slice(0, 1))}</span>`;
+    return `<li><a class="match" href="#/s/${esc(id)}">
+      ${photo}
+      <span>
+        <span class="match-name">${esc(name)}</span>
+        <span class="match-meta">${pct}% possible match</span>
+        ${note}
+        ${caution}
+        <span class="meter" aria-hidden="true"><span style="width:${Math.min(pct, 100)}%"></span></span>
+      </span>
+    </a></li>`;
+  }).join("");
+}
+
+function renderMatches(rows) {
+  const host = document.getElementById("matches");
+  if (!host) return;
+  const animals = rows.filter((row) => row.cls.id !== "background").sort((a, b) => b.p - a.p);
+  const background = rows.find((row) => row.cls.id === "background");
+  const top = animals[0];
+  const bg = background ? background.p : 0;
+  if (!top || (top.p < 0.12 && bg >= top.p)) {
+    host.innerHTML = `<li class="empty">No clear animal match.</li>`;
+    live.textContent = "No clear animal match";
+    return;
+  }
+  const shown = animals.filter((row, index) => index < 3 && (index === 0 || row.p >= 0.12));
+  host.innerHTML = shown.map(matchMarkup).join("");
+  const names = shown.map((row) => (row.cls.species || []).map((id) => {
+    const item = findSpecies(id);
+    return item ? item.common : id;
+  }).join(" or ")).join(", ");
+  live.textContent = `Possible match: ${names}`;
+}
+
+function listenView() {
+  return `<button type="button" class="back" data-back="#/">Back</button>
+    <h1>Listen</h1>
+    <p class="listen-note">Possible matches, not a certain identification. The sound stays on this phone and is not uploaded.</p>
+    <button type="button" class="listen-toggle" data-listen-toggle aria-pressed="false">Start listening</button>
+    <p class="listen-status" id="listen-status">Tap start, then hold the phone near the animal.</p>
+    <ul class="matches" id="matches"></ul>
+    <p class="fine">Very high songs and very low grunts are harder for this listener. <button type="button" class="linkish" data-credits>How this works</button></p>`;
+}
+
+function stopListen() {
+  listenGen += 1;
+  if (!mic) return;
+  mic.processor.onaudioprocess = null;
+  try { mic.source.disconnect(); } catch (error) { /* already stopped */ }
+  try { mic.processor.disconnect(); } catch (error) { /* already stopped */ }
+  try { mic.mute.disconnect(); } catch (error) { /* already stopped */ }
+  mic.stream.getTracks().forEach((track) => track.stop());
+  mic.context.close();
+  mic = null;
+}
+
+async function toggleListen() {
+  const button = document.querySelector("[data-listen-toggle]");
+  const status = document.getElementById("listen-status");
+  if (mic) {
+    stopListen();
+    if (button) {
+      button.textContent = "Start listening";
+      button.classList.remove("is-on");
+      button.setAttribute("aria-pressed", "false");
+    }
+    if (status) status.textContent = "Stopped.";
+    live.textContent = "Stopped listening";
+    return;
+  }
+  const gen = listenGen + 1;
+  listenGen = gen;
+  if (status) status.textContent = "Getting the listener ready…";
+  try {
+    await ensureModels();
+    if (gen !== listenGen) return;
+    stopAudio();
+    const stream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false },
+      video: false
+    });
+    if (gen !== listenGen) {
+      stream.getTracks().forEach((track) => track.stop());
+      return;
+    }
+    const context = new AudioContext();
+    const source = context.createMediaStreamSource(stream);
+    const processor = context.createScriptProcessor(4096, 1, 1);
+    const mute = context.createGain();
+    mute.gain.value = 0;
+    const rate = context.sampleRate;
+    const need = Math.ceil(0.975 * rate);
+    const hop = Math.ceil(0.48 * rate);
+    let pending = new Float32Array(0);
+    let since = hop;
+    let busy = false;
+    processor.onaudioprocess = (event) => {
+      if (gen !== listenGen) return;
+      const input = event.inputBuffer.getChannelData(0);
+      const merged = new Float32Array(pending.length + input.length);
+      merged.set(pending, 0);
+      merged.set(input, pending.length);
+      const keep = Math.min(merged.length, need + hop);
+      pending = merged.slice(merged.length - keep);
+      since += input.length;
+      if (busy || pending.length < need || since < hop) return;
+      since = 0;
+      busy = true;
+      const slice = pending.slice(pending.length - need);
+      const samples = resampleTo16k(slice, rate);
+      identifySamples(samples).then((scored) => {
+        busy = false;
+        if (gen !== listenGen) return;
+        renderMatches(scored.rows);
+        if (status) status.textContent = "Listening…";
+      }).catch(() => { busy = false; });
+    };
+    source.connect(processor);
+    processor.connect(mute);
+    mute.connect(context.destination);
+    mic = { stream, context, source, processor, mute };
+    if (button) {
+      button.textContent = "Stop listening";
+      button.classList.add("is-on");
+      button.setAttribute("aria-pressed", "true");
+    }
+    if (status) status.textContent = "Listening…";
+    live.textContent = "Listening";
+  } catch (error) {
+    if (gen === listenGen) listenGen += 1;
+    if (status) status.textContent = "The microphone is not available here. You can still open each animal and play its recordings.";
+    live.textContent = "Microphone unavailable";
+  }
+}
+
+window.critterIdentifySamples = identifySamples;
+
 function credits() {
   const blocks = orderedSpecies().map((item) => {
     const sounds = (item.sounds || []).map((sound, index) => `Recording ${index + 1}: ${esc(sound.recordist || "Unknown")} (${esc(prettyLicense(sound.license))})${sound.note ? `, ${esc(sound.note)}` : ""}${sound.source ? ` · <a href="${esc(sound.source)}">source</a>` : ""}`).join("<br>");
@@ -216,6 +481,11 @@ function credits() {
   return `<button type="button" class="back" data-back="#/">Back</button>
     <div class="credits">
       <h1>Credits</h1>
+      <h2>Sound identification</h2>
+      <p>Listen runs on this phone. Audio is not uploaded. A result is a possible match, not a certain identification.</p>
+      <p>The listener is a small classifier trained on <a href="https://www.kaggle.com/models/google/yamnet">YAMNet</a> embeddings. YAMNet is a Google model under the Apache License 2.0. It hears from about 125 Hz to 7,500 Hz, so very low grunts and very high insect songs are harder to match. The model files in this app stay under that same Apache license.</p>
+      <p>Google Perch 2.0 is also Apache 2.0 and allows commercial use (<a href="https://www.kaggle.com/models/google/bird-vocalization-classifier/tensorFlow2/perch_v2">model card</a>). Its published file is 410 MB, which is too large to load in a phone browser, so it is not included.</p>
+      <p>Training sounds are research-grade iNaturalist recordings under CC0, CC BY, or CC BY-SA only, plus background clips of speech, traffic, wind, and common birds under those same licenses. Recordists, licenses, and links are in the <a href="data/training-manifest.csv">training manifest</a>. Abundant species were capped at 40 observations. Four pairs that sound alike share one match: broad-winged and prairie tree crickets, lesser and greater anglewings, handsome and red-headed meadow katydids, and Riley's and Cassin's 13-year cicadas.</p>
       <p>Sounds and photos come from iNaturalist contributors under the Creative Commons license on each item. Many are non-commercial only. Local recordings were given short fades and matched in level, with no noise reduction. Speech was cut only when it did not cover the call. Clips marked CC BY-NC-ND were not edited.</p>
       <p>Short descriptions are from Wikipedia and stay under CC BY-SA.</p>
       <p class="legal">© 2026 Rachael Aswege. Critter Whisperer™. All rights reserved for app design, text and code. Recordings and photos belong to their credited creators under their own licenses.</p>
@@ -240,7 +510,8 @@ function home() {
   }).join("");
   return `<p class="kicker">Alabama</p>
     <h1>Critter Whisperer</h1>
-    <p class="lede">Pick a group, then play a sound.</p>
+    <p class="lede">Pick a group, or listen for a possible match.</p>
+    <button type="button" class="listen-go" data-listen>Listen</button>
     ${searchBox()}
     <div class="groups">${cards}</div>
     <p class="foot"><button type="button" class="linkish" data-credits>Credits and licenses</button></p>
@@ -271,6 +542,7 @@ function screenFromHash() {
   if (parts[0] === "g" && parts[1]) return { name: "group", id: decodeURIComponent(parts[1]) };
   if (parts[0] === "s" && parts[1]) return { name: "detail", id: decodeURIComponent(parts[1]) };
   if (parts[0] === "credits") return { name: "credits" };
+  if (parts[0] === "listen") return { name: "listen" };
   return { name: "home" };
 }
 
@@ -286,7 +558,8 @@ function renderView(moveFocus) {
     view.innerHTML = item
       ? detail(item)
       : `<button type="button" class="back" data-back="#/">Back</button><h1>Not found</h1>`;
-  } else if (screen.name === "credits") view.innerHTML = credits();
+  }   else if (screen.name === "credits") view.innerHTML = credits();
+  else if (screen.name === "listen") view.innerHTML = listenView();
   else view.innerHTML = searchView(screen.query);
   syncPlayButtons();
   bindSearch();
@@ -333,6 +606,7 @@ function syncPlayButtons() {
 }
 
 function togglePlay(url, key, label) {
+  if (mic) stopListen();
   if (wantPlay && playingKey === key) {
     wantPlay = false;
     playingKey = null;
@@ -363,6 +637,7 @@ function go(hash) {
   query = "";
   if (location.hash === hash) {
     stopAudio();
+    stopListen();
     renderView(true);
     return;
   }
@@ -401,6 +676,14 @@ function onClick(event) {
     go("#/credits");
     return;
   }
+  if (event.target.closest("[data-listen]")) {
+    go("#/listen");
+    return;
+  }
+  if (event.target.closest("[data-listen-toggle]")) {
+    toggleListen();
+    return;
+  }
   const back = event.target.closest("[data-back]");
   if (back) go(back.dataset.back);
 }
@@ -434,6 +717,7 @@ document.addEventListener("keydown", (event) => {
 
 window.addEventListener("hashchange", () => {
   stopAudio();
+  stopListen();
   renderView(true);
 });
 
