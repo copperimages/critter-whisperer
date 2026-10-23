@@ -90,6 +90,14 @@
     "source": "https://www.inaturalist.org/observations/263207978",
     "date": "2025-02-26",
     "place": "Joseph Springs Motorway, Anniston, AL, US"
+   },
+   {
+    "url": "sounds/pseudacris-crucifer-4.mp3",
+    "recordist": "Wes Neely",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/21068470",
+    "date": "2019-03-08",
+    "place": "35406, Tuscaloosa, AL, US"
    }
   ]
  },
@@ -194,12 +202,13 @@
     "place": "S Evergreen Dr, Auburn, AL, US"
    },
    {
-    "url": "sounds/dryophytes-chrysoscelis-3.mp3",
+    "url": "sounds/dryophytes-chrysoscelis-4.mp3",
     "recordist": "Brooke",
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/356295112",
     "date": "2026-04-24",
-    "place": "Alabama, US"
+    "place": "Alabama, US",
+    "note": "Dog barks cut out of the original. No noise reduction."
    }
   ]
  },

@@ -22,10 +22,10 @@ Fowler’s toad recording 3 is a CC BY-NC Atlanta recording by robotpie (observa
 
 These recordings had no clear call in the original file, so they were replaced with another CC0, CC BY, or CC BY-NC recording of the same species. Southeast observations were used when one was available.
 
-- Spring Peeper: maddiehluvslzrds (Anniston, AL, CC BY-NC)
+- Spring Peeper: maddiehluvslzrds (Anniston, AL, CC BY-NC). Recording 2 is Wes Neely (Tuscaloosa, AL, CC BY)
 - Upland Chorus Frog, recordings 1 and 3: allan5519 (Opelika, AL, CC BY), Nick Sharp (Madison County, AL, CC BY-NC)
 - Green Treefrog, recordings 2 and 3: maddiehluvslzrds (Dauphin Island, AL, CC BY-NC), Jonathan Gilmer (Orange Beach, AL, CC BY)
-- Cope's Gray Tree Frog, recording 3: Brooke (Alabama, CC BY-NC)
+- Cope's Gray Tree Frog, recording 3: Brooke (Alabama, CC BY-NC). Dog barks were cut out of the original file. The trills were kept, with short fades and level matching. No noise reduction.
 - Eastern Narrow-mouthed Toad, recording 3: Jessica Hutt (Bluff Park, AL, CC BY-NC)
 - Southern Leopard Frog, recording 3: LizM (Westover, AL, CC BY-NC)
 - Bird-voiced Treefrog, recording 1: Bill Grantham (Ramer, AL, CC BY-NC)
