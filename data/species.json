@@ -30,12 +30,11 @@
   "sounds": [
    {
     "url": "sounds/pseudacris-feriarum-1.mp3",
-    "recordist": "Ken Wills",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/261997806",
-    "date": "2025-02-17",
-    "place": "Whatley St, Birmingham, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "recordist": "allan5519",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/197619155",
+    "date": "2024-01-26",
+    "place": "Opelika, AL, US"
    },
    {
     "url": "sounds/pseudacris-feriarum-2.mp3",
@@ -43,17 +42,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/229105929",
     "date": "2023-01-30",
-    "place": "Lawrence County, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Lawrence County, AL, USA"
    },
    {
     "url": "sounds/pseudacris-feriarum-3.mp3",
-    "recordist": "Alvin Diamond",
+    "recordist": "Nick Sharp",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/19105188",
-    "date": "2018-12-19",
-    "place": "Pike County, US-AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/4986693",
+    "date": "2017-01-21",
+    "place": "Madison County, AL, USA"
    }
   ]
  },
@@ -79,32 +76,36 @@
    "11": 11,
    "12": 11
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/pseudacris-crucifer.jpg",
+   "credit": "(c) Laura J. Costello, some rights reserved (CC BY)",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/489288668"
+  },
   "sounds": [
    {
-    "url": "https://static.inaturalist.org/sounds/606673.m4a?1677716550",
-    "recordist": "Eric Blomberg",
-    "license": "CC-BY-NC-ND",
-    "source": "https://www.inaturalist.org/observations/150020044",
-    "date": "2023-03-01",
-    "place": "Alabama, US"
-   },
-   {
-    "url": "https://static.inaturalist.org/sounds/606674.m4a?1677716552",
-    "recordist": "Eric Blomberg",
-    "license": "CC-BY-NC-ND",
-    "source": "https://www.inaturalist.org/observations/150020044",
-    "date": "2023-03-01",
-    "place": "Alabama, US"
-   },
-   {
     "url": "sounds/pseudacris-crucifer-1.mp3",
-    "recordist": "K Denzer",
+    "recordist": "Seamus O'Brien",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/109293244",
-    "date": "2022-03-23",
-    "place": "Daphne, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/201628217",
+    "date": "2024-03-07",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "sounds/pseudacris-crucifer-2.mp3",
+    "recordist": "maddiehluvslzrds",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/263207978",
+    "date": "2025-02-26",
+    "place": "Joseph Springs Motorway, Anniston, AL, US"
+   },
+   {
+    "url": "sounds/pseudacris-crucifer-3.mp3",
+    "recordist": "Helen A. Czech",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/338136185",
+    "date": "2026-02-10",
+    "place": "Huntsville, AL 35811, USA"
    }
   ]
  },
@@ -143,26 +144,23 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/231321198",
     "date": "2024-07-23",
-    "place": "Morris, AL 35116, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Morris, AL 35116, USA"
    },
    {
     "url": "sounds/dryophytes-cinereus-2.mp3",
-    "recordist": "Kristi Zoebelein",
-    "license": "CC0",
-    "source": "https://www.inaturalist.org/observations/161499429",
-    "date": "2023-05-13",
-    "place": "Warrior, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "recordist": "maddiehluvslzrds",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/268848918",
+    "date": "2025-04-05",
+    "place": "Dauphin Island, Dauphin Island, AL, US"
    },
    {
     "url": "sounds/dryophytes-cinereus-3.mp3",
-    "recordist": "Kristin A. Bakkegard",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/365588432",
-    "date": "2026-05-26",
-    "place": "Bluff Park, AL 35244, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/369749279",
+    "date": "2026-06-06",
+    "place": "Orange Beach, AL, USA"
    }
   ]
  },
@@ -201,8 +199,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/225649352",
     "date": "2024-06-27",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Alabama, US"
    },
    {
     "url": "sounds/dryophytes-chrysoscelis-2.mp3",
@@ -210,17 +207,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/269707371",
     "date": "2025-04-10",
-    "place": "S Evergreen Dr, Auburn, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "S Evergreen Dr, Auburn, AL, US"
    },
    {
     "url": "sounds/dryophytes-chrysoscelis-3.mp3",
-    "recordist": "etb0023",
+    "recordist": "Brooke",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/204646613",
-    "date": "2024-03-30",
-    "place": "Leroy, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/356295112",
+    "date": "2026-04-24",
+    "place": "Alabama, US"
    }
   ]
  },
@@ -246,7 +241,12 @@
    "11": 26,
    "12": 2
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/gastrophryne-carolinensis.jpg",
+   "credit": "(c) bonesbugsandharmony, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/99826184"
+  },
   "sounds": [
    {
     "url": "sounds/gastrophryne-carolinensis-1.mp3",
@@ -254,8 +254,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/29915554",
     "date": "2019-06-15",
-    "place": "Huntsville, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Huntsville, AL, USA"
    },
    {
     "url": "sounds/gastrophryne-carolinensis-2.mp3",
@@ -263,17 +262,15 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/225843075",
     "date": "2024-06-27",
-    "place": "5207 Cambridge Dr, Northport, AL 35473, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "5207 Cambridge Dr, Northport, AL 35473, USA"
    },
    {
     "url": "sounds/gastrophryne-carolinensis-3.mp3",
-    "recordist": "Janet Lloyd",
+    "recordist": "Jessica Hutt",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/54332939",
-    "date": "2020-07-25",
-    "place": "Perdido Beach, AL 36530, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/369901511",
+    "date": "2026-06-08",
+    "place": "Bluff Park, AL 35244, USA"
    }
   ]
  },
@@ -312,8 +309,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/405881230",
     "date": "2026-05-14",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Alabama, US"
    },
    {
     "url": "sounds/lithobates-catesbeianus-2.mp3",
@@ -321,8 +317,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/122108535",
     "date": "2022-05-19",
-    "place": "Bayfront Park Dr, Daphne, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Bayfront Park Dr, Daphne, AL, US"
    },
    {
     "url": "sounds/lithobates-catesbeianus-3.mp3",
@@ -330,8 +325,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/22969539",
     "date": "2019-04-22",
-    "place": "USA, Mobile, AL 36608, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "USA, Mobile, AL 36608, USA"
    }
   ]
  },
@@ -357,7 +351,12 @@
    "11": 39,
    "12": 13
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/lithobates-clamitans.jpg",
+   "credit": "(c) Sarah GB, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/276065606"
+  },
   "sounds": [
    {
     "url": "sounds/lithobates-clamitans-1.mp3",
@@ -365,8 +364,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/110322953",
     "date": "2022-04-03",
-    "place": "Troy, AL 36082, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Troy, AL 36082, USA"
    },
    {
     "url": "sounds/lithobates-clamitans-2.mp3",
@@ -374,8 +372,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/368329575",
     "date": "2026-04-20",
-    "place": "Eufaula, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Eufaula, AL, USA"
    },
    {
     "url": "sounds/lithobates-clamitans-3.mp3",
@@ -383,8 +380,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/269048661",
     "date": "2025-04-05",
-    "place": "Foley, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Foley, AL, USA"
    }
   ]
  },
@@ -410,7 +406,12 @@
    "11": 1,
    "12": 0
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/pseudacris-collinsorum.jpg",
+   "credit": "(c) Eric Soehren, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/51139027"
+  },
   "sounds": [
    {
     "url": "sounds/pseudacris-collinsorum-1.mp3",
@@ -418,8 +419,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/20704213",
     "date": "2019-02-23",
-    "place": "501 Cahaba Farms Dr, Indian Springs Village, AL 35124, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "501 Cahaba Farms Dr, Indian Springs Village, AL 35124, USA"
    },
    {
     "url": "sounds/pseudacris-collinsorum-2.mp3",
@@ -427,8 +427,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/338980067",
     "date": "2026-02-15",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Alabama, US"
    },
    {
     "url": "sounds/pseudacris-collinsorum-3.mp3",
@@ -436,8 +435,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/261055557",
     "date": "2025-02-08",
-    "place": "Cheaha State Park, Delta, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Cheaha State Park, Delta, AL, US"
    }
   ]
  },
@@ -463,7 +461,12 @@
    "11": 49,
    "12": 14
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/lithobates-sphenocephalus.jpg",
+   "credit": "(c) jaypcavecrawler, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/601926655"
+  },
   "sounds": [
    {
     "url": "https://static.inaturalist.org/sounds/1215651.m4a?1727532855",
@@ -474,22 +477,20 @@
     "place": "Alabama, US"
    },
    {
-    "url": "sounds/lithobates-sphenocephalus-1.mp3",
+    "url": "sounds/lithobates-sphenocephalus-2.mp3",
     "recordist": "karenandphillip",
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/69058729",
     "date": "2021-01-27",
-    "place": "Inland Junction, AL",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Inland Junction, AL"
    },
    {
-    "url": "sounds/lithobates-sphenocephalus-2.mp3",
-    "recordist": "Brooke",
+    "url": "sounds/lithobates-sphenocephalus-3.mp3",
+    "recordist": "LizM",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/341426131",
-    "date": "2026-02-19",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/106463322",
+    "date": "2022-02-09",
+    "place": "Westover, AL, USA"
    }
   ]
  },
@@ -524,12 +525,11 @@
   "sounds": [
    {
     "url": "sounds/dryophytes-avivoca-1.mp3",
-    "recordist": "Kristin A. Bakkegard",
+    "recordist": "Bill Grantham",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/371472045",
-    "date": "2026-06-13",
-    "place": "West Blocton, AL 35184, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/16935622",
+    "date": "2018-04-23",
+    "place": "Ramer, AL, USA"
    },
    {
     "url": "sounds/dryophytes-avivoca-2.mp3",
@@ -537,8 +537,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/152774986",
     "date": "2023-03-28",
-    "place": "Macon County, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Macon County, AL, USA"
    },
    {
     "url": "https://static.inaturalist.org/sounds/33911.wav?1554518831",
@@ -585,8 +584,7 @@
     "license": "CC0",
     "source": "https://www.inaturalist.org/observations/278476505",
     "date": "2025-05-04",
-    "place": "Fairhope, AL 36532, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Fairhope, AL 36532, USA"
    },
    {
     "url": "sounds/anaxyrus-terrestris-2.mp3",
@@ -594,8 +592,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/111280822",
     "date": "2022-04-12",
-    "place": "Northport, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Northport, AL, US"
    },
    {
     "url": "sounds/anaxyrus-terrestris-3.mp3",
@@ -603,8 +600,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/111275928",
     "date": "2022-04-12",
-    "place": "Northport, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Northport, AL, US"
    }
   ]
  },
@@ -639,12 +635,11 @@
   "sounds": [
    {
     "url": "sounds/dryophytes-squirellus-1.mp3",
-    "recordist": "David Dodd",
+    "recordist": "Jonathan Layman",
     "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/225810805",
-    "date": "2024-06-27",
-    "place": "5207 Cambridge Dr, Northport, AL 35473, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/73640335",
+    "date": "2021-04-10",
+    "place": "Dauphin Island, AL, USA"
    },
    {
     "url": "sounds/dryophytes-squirellus-2.mp3",
@@ -652,8 +647,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/305932595",
     "date": "2025-08-12",
-    "place": "Orange Beach, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Orange Beach, AL, USA"
    },
    {
     "url": "sounds/dryophytes-squirellus-3.mp3",
@@ -661,8 +655,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/305932595",
     "date": "2025-08-12",
-    "place": "Orange Beach, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Orange Beach, AL, USA"
    }
   ]
  },
@@ -701,8 +694,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/345408279",
     "date": "2026-03-26",
-    "place": "Edmonds Dr, Grant, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Edmonds Dr, Grant, AL, US"
    },
    {
     "url": "sounds/anaxyrus-fowleri-2.mp3",
@@ -710,8 +702,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/24868486",
     "date": "2019-05-09",
-    "place": "744 County Rd 1178, Troy, AL 36079, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "744 County Rd 1178, Troy, AL 36079, USA"
    },
    {
     "url": "sounds/anaxyrus-fowleri-3.mp3",
@@ -719,8 +710,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/212791094",
     "date": "2024-04-29",
-    "place": "Buckhead, Atlanta, Georgia, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Buckhead, Atlanta, Georgia, USA"
    }
   ]
  },
@@ -746,7 +736,12 @@
    "11": 3,
    "12": 2
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/lithobates-grylio.jpg",
+   "credit": "(c) britt84, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/48932734"
+  },
   "sounds": [
    {
     "url": "sounds/lithobates-grylio-1.mp3",
@@ -754,26 +749,23 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/269652344",
     "date": "2025-04-10",
-    "place": "Dauphin Island, AL 36528, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Dauphin Island, AL 36528, USA"
    },
    {
     "url": "sounds/lithobates-grylio-2.mp3",
-    "recordist": "Howard Horne",
+    "recordist": "pauljgier",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/25811716",
-    "date": "2019-05-25",
-    "place": "Baldwin County, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/228242410",
+    "date": "2024-07-02",
+    "place": "Dauphin Island, AL, USA"
    },
    {
     "url": "sounds/lithobates-grylio-3.mp3",
     "recordist": "Jonathan Gilmer",
     "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/224452255",
-    "date": "2024-06-02",
-    "place": "Centennial Trail, Bon Secour National Wildlife Refuge, Gulf Shores, AL 36542, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/278419693",
+    "date": "2025-03-31",
+    "place": "Orange Beach, AL 36561, USA"
    }
   ]
  },
@@ -812,8 +804,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/368327986",
     "date": "2026-04-20",
-    "place": "Eufaula, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Eufaula, AL, USA"
    },
    {
     "url": "sounds/acris-gryllus-2.mp3",
@@ -821,8 +812,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/175040864",
     "date": "2023-07-21",
-    "place": "Cullman County, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Cullman County, AL, USA"
    },
    {
     "url": "sounds/acris-gryllus-3.mp3",
@@ -830,8 +820,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/24049069",
     "date": "2019-04-28",
-    "place": "6905 Clements Foley Rd, Northport, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "6905 Clements Foley Rd, Northport, AL, US"
    }
   ]
  },
@@ -866,12 +855,11 @@
   "sounds": [
    {
     "url": "sounds/anaxyrus-americanus-1.mp3",
-    "recordist": "madi_richards",
+    "recordist": "J. Rockhold",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/205016608",
-    "date": "2024-04-01",
-    "place": "Moores Mill Rd NE, Huntsville, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/111280828",
+    "date": "2022-04-12",
+    "place": "Tuscaloosa County, US-AL, US"
    },
    {
     "url": "sounds/anaxyrus-americanus-2.mp3",
@@ -879,8 +867,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/265349110",
     "date": "2025-03-14",
-    "place": "Yahou Lake, Anniston, AL 36207, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Yahou Lake, Anniston, AL 36207, USA"
    },
    {
     "url": "sounds/anaxyrus-americanus-3.mp3",
@@ -888,8 +875,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/260852916",
     "date": "2025-02-06",
-    "place": "Mountain View Dr, Southside, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Mountain View Dr, Southside, AL, US"
    }
   ]
  },
@@ -931,20 +917,20 @@
     "place": "Bullock County, AL, USA"
    },
    {
-    "url": "https://static.inaturalist.org/sounds/1784759.m4a?1772232398",
-    "recordist": "John Trent",
-    "license": "CC-BY-NC-ND",
-    "source": "https://www.inaturalist.org/observations/340506967",
-    "date": "2026-02-27",
-    "place": "Midway, AL, US"
+    "url": "sounds/lithobates-palustris-2.mp3",
+    "recordist": "Thomas Cole",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/341457007",
+    "date": "2026-03-05",
+    "place": "Georgia, US"
    },
    {
-    "url": "https://static.inaturalist.org/sounds/1791284.wav?1772637473",
-    "recordist": "John Trent",
-    "license": "CC-BY-NC-ND",
-    "source": "https://www.inaturalist.org/observations/341240710",
-    "date": "2026-03-04",
-    "place": "Bullock County, US-AL, US"
+    "url": "sounds/lithobates-palustris-3.mp3",
+    "recordist": "Chase Harris",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/343301426",
+    "date": "2026-03-11",
+    "place": "United States"
    }
   ]
  },
@@ -983,17 +969,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/23548693",
     "date": "2019-04-27",
-    "place": "Bibb County, US-AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Bibb County, US-AL, US"
    },
    {
     "url": "sounds/acris-crepitans-2.mp3",
-    "recordist": "madronyut",
+    "recordist": "Bill Grantham",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/257151577",
-    "date": "2025-01-02",
-    "place": "Monte Sano State Park, Huntsville, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/16935085",
+    "date": "2018-04-30",
+    "place": "Ramer, AL, USA"
    },
    {
     "url": "sounds/acris-crepitans-3.mp3",
@@ -1001,8 +985,7 @@
     "license": "CC0",
     "source": "https://www.inaturalist.org/observations/12603136",
     "date": "2018-05-18",
-    "place": "Cherokee County, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Cherokee County, AL, USA"
    }
   ]
  },
@@ -1028,7 +1011,12 @@
    "11": 15,
    "12": 3
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/dryophytes-gratiosus.jpg",
+   "credit": "(c) Ty Smith, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/120146610"
+  },
   "sounds": [
    {
     "url": "sounds/dryophytes-gratiosus-1.mp3",
@@ -1036,8 +1024,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/123633864",
     "date": "2022-06-26",
-    "place": "Joseph Springs Motorway, Anniston, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Joseph Springs Motorway, Anniston, AL, US"
    },
    {
     "url": "sounds/dryophytes-gratiosus-2.mp3",
@@ -1045,17 +1032,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/361834198",
     "date": "2026-05-08",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Alabama, US"
    },
    {
     "url": "sounds/dryophytes-gratiosus-3.mp3",
-    "recordist": "Howard Horne",
+    "recordist": "Ingolf Askevold",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/284707954",
-    "date": "2025-05-27",
-    "place": "Lansdowne Dr, Mobile, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/374579081",
+    "date": "2026-06-22",
+    "place": "Leon County, FL, USA"
    }
   ]
  },
@@ -1094,8 +1079,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/38834194",
     "date": "2020-02-18",
-    "place": "Covington County, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Covington County, AL, USA"
    },
    {
     "url": "sounds/pseudacris-nigrita-2.mp3",
@@ -1103,8 +1087,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/264987527",
     "date": "2025-03-10",
-    "place": "Perdido, AL 36562, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Perdido, AL 36562, USA"
    },
    {
     "url": "sounds/pseudacris-nigrita-3.mp3",
@@ -1112,8 +1095,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/68221925",
     "date": "2021-01-14",
-    "place": "Eufaula, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Eufaula, AL, USA"
    }
   ]
  },
@@ -1152,8 +1134,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/215602676",
     "date": "2024-05-10",
-    "place": "Little River Canyon National Preserve, DeKalb County, US-AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Little River Canyon National Preserve, DeKalb County, US-AL, US"
    },
    {
     "url": "sounds/scaphiopus-holbrookii-2.mp3",
@@ -1161,8 +1142,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/129275354",
     "date": "2022-08-03",
-    "place": "Dauphin Island, Dauphin Island, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Dauphin Island, Dauphin Island, AL, US"
    },
    {
     "url": "sounds/scaphiopus-holbrookii-3.mp3",
@@ -1170,8 +1150,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/405952869",
     "date": "2026-10-04",
-    "place": "Audubon St, Dauphin Island, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Audubon St, Dauphin Island, AL, US"
    }
   ]
  },
@@ -1210,8 +1189,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/317550646",
     "date": "2025-06-22",
-    "place": "Baldwin County, US-AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Baldwin County, US-AL, US"
    },
    {
     "url": "sounds/dryophytes-femoralis-2.mp3",
@@ -1219,8 +1197,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/361834175",
     "date": "2026-05-08",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Alabama, US"
    },
    {
     "url": "sounds/dryophytes-femoralis-3.mp3",
@@ -1228,8 +1205,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/365416871",
     "date": "2026-05-22",
-    "place": "Canterbury, Mobile, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Canterbury, Mobile, AL, USA"
    }
   ]
  },
@@ -1268,8 +1244,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/98702382",
     "date": "2021-09-29",
-    "place": "Auburn, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Auburn, AL, USA"
    },
    {
     "url": "sounds/pterophylla-camellifolia-2.mp3",
@@ -1277,8 +1252,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/188338420",
     "date": "2023-10-20",
-    "place": "Grove Hill, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Grove Hill, AL, US"
    },
    {
     "url": "sounds/pterophylla-camellifolia-3.mp3",
@@ -1286,8 +1260,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/376728820",
     "date": "2026-06-29",
-    "place": "Honda Dr, Lincoln, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Honda Dr, Lincoln, AL, US"
    }
   ]
  },
@@ -1326,8 +1299,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/235852988",
     "date": "2024-08-11",
-    "place": "Hoover, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Hoover, AL, USA"
    }
   ]
  },
@@ -1366,8 +1338,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/316223185",
     "date": "2025-09-23",
-    "place": "United States",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "United States"
    },
    {
     "url": "sounds/microcentrum-rhombifolium-2.mp3",
@@ -1375,8 +1346,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/316223185",
     "date": "2025-09-23",
-    "place": "United States",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "United States"
    }
   ]
  },
@@ -1415,8 +1385,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/90547004",
     "date": "2021-08-08",
-    "place": "Trussville, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Trussville, AL, USA"
    }
   ]
  },
@@ -1451,12 +1420,11 @@
   "sounds": [
    {
     "url": "sounds/neoconocephalus-triops-1.mp3",
-    "recordist": "jobarton1028",
+    "recordist": "D.J. McNeil",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/210531863",
-    "date": "2024-04-27",
-    "place": "Paint Rock, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/114907972",
+    "date": "2022-05-01",
+    "place": "Graham County, US-NC, US"
    }
   ]
  },
@@ -1495,8 +1463,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/396806991",
     "date": "2026-08-30",
-    "place": "Foley, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Foley, AL, USA"
    }
   ]
  },
@@ -1522,7 +1489,12 @@
    "11": 5,
    "12": 0
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/neocurtilla-hexadactyla.jpg",
+   "credit": "(c) Peggy Romfh, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/31094394"
+  },
   "sounds": [
    {
     "url": "sounds/neocurtilla-hexadactyla-1.mp3",
@@ -1530,17 +1502,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/319658853",
     "date": "2025-10-08",
-    "place": "Weeks Bay Pitcher Plant Bog and Kurt G. Wintermeyer Nature Trail",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Weeks Bay Pitcher Plant Bog and Kurt G. Wintermeyer Nature Trail"
    },
    {
     "url": "sounds/neocurtilla-hexadactyla-2.mp3",
-    "recordist": "Jordan Broadhead",
+    "recordist": "Bill Grantham",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/32381018",
-    "date": "2019-09-01",
-    "place": "Jefferson, Alabama, United States",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/187244508",
+    "date": "2023-10-03",
+    "place": "Ramer, AL 36069, USA"
    },
    {
     "url": "sounds/neocurtilla-hexadactyla-3.mp3",
@@ -1548,8 +1518,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/185212716",
     "date": "2023-09-27",
-    "place": "Midway, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Midway, AL, US"
    }
   ]
  },
@@ -1588,17 +1557,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/397418283",
     "date": "2026-09-05",
-    "place": "South Eastlake, Birmingham, AL 35206, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "South Eastlake, Birmingham, AL 35206, USA"
    },
    {
     "url": "sounds/velarifictorus-micado-2.mp3",
     "recordist": "Kristi Zoebelein",
     "license": "CC0",
-    "source": "https://www.inaturalist.org/observations/400540528",
-    "date": "2026-09-12",
-    "place": "Hanceville, AL 35077, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/243973882",
+    "date": "2024-09-25",
+    "place": "Warrior, AL 35180, USA"
    },
    {
     "url": "https://static.inaturalist.org/sounds/295870.m4a?1629773338",
@@ -1645,8 +1612,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/312905457",
     "date": "2025-09-10",
-    "place": "Ramer, AL 36069, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Ramer, AL 36069, USA"
    },
    {
     "url": "sounds/hapithus-saltator-2.mp3",
@@ -1654,8 +1620,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/187428212",
     "date": "2023-10-13",
-    "place": "Tuscumbia, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Tuscumbia, AL, US"
    },
    {
     "url": "sounds/hapithus-saltator-3.mp3",
@@ -1663,8 +1628,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/318524387",
     "date": "2025-10-03",
-    "place": "Green St, Auburn, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Green St, Auburn, AL, US"
    }
   ]
  },
@@ -1690,7 +1654,12 @@
    "11": 0,
    "12": 0
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/anaxipha-rosamacula.jpg",
+   "credit": "(c) James Bailey, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/269724454"
+  },
   "sounds": [
    {
     "url": "sounds/anaxipha-rosamacula-1.mp3",
@@ -1698,8 +1667,7 @@
     "license": "CC0",
     "source": "https://www.inaturalist.org/observations/281686869",
     "date": "2025-05-17",
-    "place": "Smoke Rise, AL 35180, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Smoke Rise, AL 35180, USA"
    },
    {
     "url": "sounds/anaxipha-rosamacula-2.mp3",
@@ -1707,8 +1675,7 @@
     "license": "CC0",
     "source": "https://www.inaturalist.org/observations/298368641",
     "date": "2025-07-16",
-    "place": "Smoke Rise, AL 35180, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Smoke Rise, AL 35180, USA"
    }
   ]
  },
@@ -1734,7 +1701,12 @@
    "11": 0,
    "12": 0
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/oecanthus-latipennis.jpg",
+   "credit": "(c) Chelsea Gottfried, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/95377906"
+  },
   "sounds": [
    {
     "url": "https://static.inaturalist.org/sounds/25697.m4a?1648690166",
@@ -1781,8 +1753,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/102247210",
     "date": "2021-11-30",
-    "place": "Ruffner Mountain Nature Preserve, Birmingham, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Ruffner Mountain Nature Preserve, Birmingham, AL, US"
    }
   ]
  },
@@ -1821,8 +1792,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/265224153",
     "date": "2025-03-13",
-    "place": "Jacksonville, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Jacksonville, AL, US"
    }
   ]
  },
@@ -1857,12 +1827,11 @@
   "sounds": [
    {
     "url": "sounds/neoscapteriscus-borellii-1.mp3",
-    "recordist": "Coral Q",
+    "recordist": "bertfoquet",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/241994856",
-    "date": "2024-09-15",
-    "place": "Huntsville, AL 35805, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/290327612",
+    "date": "2025-06-16",
+    "place": "Osceola National Forest, Lake City, FL, US"
    }
   ]
  },
@@ -1901,8 +1870,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/306176648",
     "date": "2025-08-13",
-    "place": "United States",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "United States"
    }
   ]
  },
@@ -1941,8 +1909,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/297976841",
     "date": "2025-07-14",
-    "place": "Belmont Dr, Moody, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Belmont Dr, Moody, AL, US"
    },
    {
     "url": "sounds/neotibicen-robinsonianus-2.mp3",
@@ -1950,8 +1917,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/297783271",
     "date": "2025-07-13",
-    "place": "McDaniel Ave, Anniston, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "McDaniel Ave, Anniston, AL, US"
    },
    {
     "url": "sounds/neotibicen-robinsonianus-3.mp3",
@@ -1959,8 +1925,7 @@
     "license": "CC0",
     "source": "https://www.inaturalist.org/observations/302084062",
     "date": "2025-07-29",
-    "place": "Blount County, US-AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Blount County, US-AL, US"
    }
   ]
  },
@@ -1986,7 +1951,12 @@
    "11": 0,
    "12": 0
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/magicicada-tredecim.jpg",
+   "credit": "(c) Michael J. Papay, some rights reserved (CC BY)",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/370009134"
+  },
   "sounds": [
    {
     "url": "sounds/magicicada-tredecim-1.mp3",
@@ -1994,8 +1964,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/215072162",
     "date": "2024-05-11",
-    "place": "Decatur, AL 35603, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Decatur, AL 35603, USA"
    },
    {
     "url": "sounds/magicicada-tredecim-2.mp3",
@@ -2003,17 +1972,15 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/214416500",
     "date": "2024-05-08",
-    "place": "Killen, AL 35645, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Killen, AL 35645, USA"
    },
    {
     "url": "sounds/magicicada-tredecim-3.mp3",
-    "recordist": "Kristi Zoebelein",
-    "license": "CC0",
-    "source": "https://www.inaturalist.org/observations/218904158",
-    "date": "2024-05-28",
-    "place": "Hayden, AL 35079, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "recordist": "John Morgan",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/215000124",
+    "date": "2024-05-11",
+    "place": "Greene County, US-AL, US"
    }
   ]
  },
@@ -2048,12 +2015,11 @@
   "sounds": [
    {
     "url": "sounds/neocicada-hieroglyphica-1.mp3",
-    "recordist": "Moses J. Michelsohn",
+    "recordist": "Zae",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/291063336",
-    "date": "2025-06-19",
-    "place": "Alabama, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/366204969",
+    "date": "2026-05-28",
+    "place": "Kirby Rd, Oxford, AL, US"
    },
    {
     "url": "sounds/neocicada-hieroglyphica-2.mp3",
@@ -2061,17 +2027,15 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/359085367",
     "date": "2026-05-06",
-    "place": "Orange Beach, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Orange Beach, AL, USA"
    },
    {
     "url": "sounds/neocicada-hieroglyphica-3.mp3",
-    "recordist": "Jonathan Gilmer",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/368330529",
-    "date": "2026-05-27",
-    "place": "Orange Beach, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/294244629",
+    "date": "2025-06-30",
+    "place": "Murphree Lake Dam, Blountsville, AL 35031, USA"
    }
   ]
  },
@@ -2110,8 +2074,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/304022430",
     "date": "2025-07-24",
-    "place": "United States",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "United States"
    },
    {
     "url": "sounds/neotibicen-tibicen-2.mp3",
@@ -2119,8 +2082,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/55912025",
     "date": "2020-08-09",
-    "place": "Birmingham, AL 35226, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Birmingham, AL 35226, USA"
    },
    {
     "url": "sounds/neotibicen-tibicen-3.mp3",
@@ -2128,8 +2090,7 @@
     "license": "CC-BY",
     "source": "https://www.inaturalist.org/observations/235853407",
     "date": "2024-08-11",
-    "place": "Hoover, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Hoover, AL, USA"
    }
   ]
  },
@@ -2168,8 +2129,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/58559301",
     "date": "2020-09-04",
-    "place": "Hoover, AL 35226, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Hoover, AL 35226, USA"
    },
    {
     "url": "sounds/megatibicen-grossus-2.mp3",
@@ -2177,8 +2137,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/58295930",
     "date": "2020-09-01",
-    "place": "Homewood, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Homewood, AL, USA"
    },
    {
     "url": "sounds/megatibicen-grossus-3.mp3",
@@ -2186,8 +2145,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/240854489",
     "date": "2024-09-09",
-    "place": "Covey Chase, Tuscaloosa, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Covey Chase, Tuscaloosa, AL, US"
    }
   ]
  },
@@ -2222,12 +2180,11 @@
   "sounds": [
    {
     "url": "sounds/magicicada-tredecassini-1.mp3",
-    "recordist": "Mary Shew",
+    "recordist": "Damien Simbeck",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/219015811",
-    "date": "2024-05-27",
-    "place": "Gaylesville, AL 35973, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "source": "https://www.inaturalist.org/observations/214676764",
+    "date": "2024-05-09",
+    "place": "Sheffield, AL, USA"
    },
    {
     "url": "sounds/magicicada-tredecassini-2.mp3",
@@ -2235,8 +2192,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/214880239",
     "date": "2024-05-10",
-    "place": "Cheaha State Park, Delta, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Cheaha State Park, Delta, AL, US"
    },
    {
     "url": "sounds/magicicada-tredecassini-3.mp3",
@@ -2244,8 +2200,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/215244743",
     "date": "2024-05-11",
-    "place": "Decatur, AL 35603, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Decatur, AL 35603, USA"
    }
   ]
  },
@@ -2271,7 +2226,12 @@
    "11": 0,
    "12": 0
   },
-  "photo": null,
+  "photo": {
+   "url": "photos/neotibicen-pruinosus.jpg",
+   "credit": "(c) cicadaandwaspenthusiast, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/219011596"
+  },
   "sounds": [
    {
     "url": "sounds/neotibicen-pruinosus-1.mp3",
@@ -2279,8 +2239,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/58346892",
     "date": "2020-09-01",
-    "place": "Homewood, AL, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Homewood, AL, USA"
    },
    {
     "url": "sounds/neotibicen-pruinosus-2.mp3",
@@ -2288,8 +2247,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/288620775",
     "date": "2025-06-10",
-    "place": "McDaniel Ave, Anniston, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "McDaniel Ave, Anniston, AL, US"
    },
    {
     "url": "sounds/neotibicen-pruinosus-3.mp3",
@@ -2297,8 +2255,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/385821383",
     "date": "2026-07-27",
-    "place": "Morris, AL 35116, USA",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Morris, AL 35116, USA"
    }
   ]
  },
@@ -2337,8 +2294,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/304318924",
     "date": "2025-08-06",
-    "place": "Huntsville, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Huntsville, AL, US"
    },
    {
     "url": "sounds/megatibicen-pronotalis-2.mp3",
@@ -2346,8 +2302,7 @@
     "license": "CC-BY-NC",
     "source": "https://www.inaturalist.org/observations/302495777",
     "date": "2025-07-30",
-    "place": "Scottsboro, AL, US",
-    "note": "trimmed/cleaned by Critter Whisperer"
+    "place": "Scottsboro, AL, US"
    }
   ]
  }

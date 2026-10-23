@@ -364,6 +364,13 @@ h2 {
   margin: 28px 0 0;
 }
 
+.legal {
+  margin: 10px 0 4px;
+  color: var(--brown);
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
 .linkish {
   min-height: 48px;
   padding: 8px 0;

@@ -216,8 +216,9 @@ function credits() {
   return `<button type="button" class="back" data-back="#/">Back</button>
     <div class="credits">
       <h1>Credits</h1>
-      <p>Sounds and photos come from iNaturalist contributors under the Creative Commons license on each item. Many are non-commercial only. Edited clips were trimmed and cleaned by Critter Whisperer. Clips marked CC BY-NC-ND were not edited.</p>
+      <p>Sounds and photos come from iNaturalist contributors under the Creative Commons license on each item. Many are non-commercial only. Local recordings were given short fades and matched in level, with no noise reduction. Speech was cut only when it did not cover the call. Clips marked CC BY-NC-ND were not edited.</p>
       <p>Short descriptions are from Wikipedia and stay under CC BY-SA.</p>
+      <p class="legal">© 2026 Rachael Aswege. Critter Whisperer™. All rights reserved for app design, text and code. Recordings and photos belong to their credited creators under their own licenses.</p>
       ${blocks}
     </div>`;
 }
@@ -242,7 +243,8 @@ function home() {
     <p class="lede">Pick a group, then play a sound.</p>
     ${searchBox()}
     <div class="groups">${cards}</div>
-    <p class="foot"><button type="button" class="linkish" data-credits>Credits and licenses</button></p>`;
+    <p class="foot"><button type="button" class="linkish" data-credits>Credits and licenses</button></p>
+    <p class="legal">© 2026 Rachael Aswege. Critter Whisperer™.</p>`;
 }
 
 function groupView(id) {
