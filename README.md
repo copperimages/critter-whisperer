@@ -1,18 +1,19 @@
 # Critter Whisperer
 
-A sound lookup for the frogs, toads, crickets, cicadas, and katydids of Alabama. Search by name, filter by group, see which months they are heard, and play recordings — in the spirit of the Merlin bird app.
+A calm, phone-friendly way to hear the frogs, toads, crickets, cicadas, and katydids of Alabama. Pick a group, play a sound, and open an animal for a short note and the months it shows up.
 
-The site is a static page. Species, photos, and sounds are listed in `data/species.json`, and the Alabama checklist is in `data/states.json`.
+The site is static. Species and photos are listed in `data/species.json`, the Alabama checklist is in `data/states.json`, and the edited recordings are in `sounds/`.
 
 Live site: https://copperimages.github.io/critter-whisperer/
 
 ## Credits
 
-Sounds and photos come from [iNaturalist](https://www.inaturalist.org) contributors and are used under the Creative Commons license each person chose. `data/species.json` keeps that attribution on every item:
+Sounds and photos come from [iNaturalist](https://www.inaturalist.org) contributors and are used under the Creative Commons license each person chose. `data/species.json` keeps that attribution on every item: the recordist or photographer, the license, the date and place when we have them, and a link back to the observation or photo.
 
-- Each sound lists the recordist, license, date, place, file URL, and a link to the iNaturalist observation.
-- Each photo lists the photographer credit, license, image URL, and a link to the iNaturalist photo.
+Many of these works are licensed for non-commercial use only (CC BY-NC, and for photos also CC BY-NC-SA or CC BY-NC-ND). Others are CC BY or CC0. Please follow the license on each recording and photo.
 
-Many of these works are licensed for non-commercial use only. In the current data, most sounds are CC BY-NC and a few are CC BY-NC-ND; most photos are CC BY-NC, CC BY-NC-SA, or CC BY-NC-ND. A smaller number of sounds and photos are CC BY or CC0. Please honor the license shown on each recording and photo, and follow the terms the contributor chose.
+Clips whose licenses allow changes (CC0, CC BY, and CC BY-NC) were trimmed, given short fades, and lightly cleaned. Where a voice detector found people talking, that speech was cut out. Those edited files say “trimmed/cleaned by Critter Whisperer.” Nine CC BY-NC-ND recordings do not allow edits. They had no detected speech, so they are left as the original iNaturalist files.
 
-Short species summaries are drawn from Wikipedia and remain under CC BY-SA. The in-app Credits page lists the recordist or photographer and license for every species.
+One Fowler’s toad file was nearly silent, so it was replaced with another CC BY-NC recording of the same species from the Atlanta area.
+
+Short species summaries are drawn from Wikipedia and remain under CC BY-SA.
