@@ -1,0 +1,2249 @@
+[
+ {
+  "id": "pseudacris-feriarum",
+  "inat_id": 24263,
+  "group": "frogs",
+  "common": "Upland Chorus Frog",
+  "scientific": "Pseudacris feriarum",
+  "summary": "The upland chorus frog (Pseudacris feriarum) is a species of chorus frog found in the United States. It was recently separated from the Western chorus frog, (Pseudacris triseriata), being identified as an individual species rather than a subspecies.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Pseudacris feriarum",
+  "months_AL": {
+   "1": 84,
+   "2": 164,
+   "3": 72,
+   "4": 40,
+   "5": 20,
+   "6": 22,
+   "7": 27,
+   "8": 20,
+   "9": 21,
+   "10": 38,
+   "11": 9,
+   "12": 19
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178203234/medium.jpg",
+   "credit": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/178203234"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1309008.m4a?1739814182",
+    "recordist": "Ken Wills",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/261997806",
+    "date": "2025-02-17",
+    "place": "Whatley St, Birmingham, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1131194.wav?1720901554",
+    "recordist": "Scott Gravette",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/229105929",
+    "date": "2023-01-30",
+    "place": "Lawrence County, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/28452.m4a?1545250782",
+    "recordist": "Alvin Diamond",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/19105188",
+    "date": "2018-12-19",
+    "place": "Pike County, US-AL, US"
+   }
+  ]
+ },
+ {
+  "id": "pseudacris-crucifer",
+  "inat_id": 24268,
+  "group": "frogs",
+  "common": "Spring Peeper",
+  "scientific": "Pseudacris crucifer",
+  "summary": "The spring peeper (Pseudacris crucifer) is a small chorus frog widespread throughout the eastern United States and Canada. They are so called because of their chirping call that marks the beginning of spring. There are two subspecies:",
+  "wikipedia": "https://en.wikipedia.org/wiki/Pseudacris crucifer",
+  "months_AL": {
+   "1": 23,
+   "2": 153,
+   "3": 133,
+   "4": 41,
+   "5": 41,
+   "6": 31,
+   "7": 41,
+   "8": 23,
+   "9": 19,
+   "10": 31,
+   "11": 11,
+   "12": 11
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/606673.m4a?1677716550",
+    "recordist": "Eric Blomberg",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/150020044",
+    "date": "2023-03-01",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/606674.m4a?1677716552",
+    "recordist": "Eric Blomberg",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/150020044",
+    "date": "2023-03-01",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/377108.m4a?1648051762",
+    "recordist": "K Denzer",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/109293244",
+    "date": "2022-03-23",
+    "place": "Daphne, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "dryophytes-cinereus",
+  "inat_id": 1668858,
+  "group": "frogs",
+  "common": "Green Treefrog",
+  "scientific": "Dryophytes cinereus",
+  "summary": "The American green tree frog (Dryophytes cinereus or Hyla cinerea) is a common arboreal species of New World tree frog belonging to the family Hylidae. This nocturnal insectivore is moderately sized and has a bright green to reddish-brown coloration. Sometimes, light yellowish spots are present on the dorsum. Commonly found in the central and southeastern United States, the frog lives in open canopy forests with permanent water sources and abundant vegetation. The American green tree frog...",
+  "wikipedia": "https://en.wikipedia.org/wiki/American_green_tree_frog",
+  "months_AL": {
+   "1": 44,
+   "2": 89,
+   "3": 293,
+   "4": 400,
+   "5": 479,
+   "6": 384,
+   "7": 350,
+   "8": 364,
+   "9": 661,
+   "10": 442,
+   "11": 136,
+   "12": 40
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4065940/medium.jpg",
+   "credit": "(c) David G. Barker, some rights reserved (CC BY-NC), uploaded by David G. Barker",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/4065940"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1141937.mpga?1721783403",
+    "recordist": "Jordan Broadhead",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/231321198",
+    "date": "2024-07-23",
+    "place": "Morris, AL 35116, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/695965.m4a?1684017904",
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/161499429",
+    "date": "2023-05-13",
+    "place": "Warrior, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1981970.m4a?1779843340",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/365588432",
+    "date": "2026-05-26",
+    "place": "Bluff Park, AL 35244, USA"
+   }
+  ]
+ },
+ {
+  "id": "dryophytes-chrysoscelis",
+  "inat_id": 1668922,
+  "group": "frogs",
+  "common": "Cope's Gray Tree Frog",
+  "scientific": "Dryophytes chrysoscelis",
+  "summary": "Cope's gray treefrog (Dryophytes chrysoscelis) is a species of treefrog found in the United States and Canada. It is almost indistinguishable from the gray treefrog (Dryophytes versicolor), and shares much of its geographic range. Both species are variable in color, mottled gray to gray-green, resembling the bark of trees. These are treefrogs of woodland habitats, though they will sometimes travel into more open areas to reach a breeding pond. The only readily noticeable difference between the...",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dryophytes chrysoscelis",
+  "months_AL": {
+   "1": 10,
+   "2": 35,
+   "3": 127,
+   "4": 369,
+   "5": 425,
+   "6": 328,
+   "7": 286,
+   "8": 229,
+   "9": 339,
+   "10": 169,
+   "11": 62,
+   "12": 6
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40627/medium.jpg",
+   "credit": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/40627"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1111979.wav?1719545643",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/225649352",
+    "date": "2024-06-27",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1369672.m4a?1744330580",
+    "recordist": "jesrieder",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/269707371",
+    "date": "2025-04-10",
+    "place": "S Evergreen Dr, Auburn, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/946470.m4a?1711841325",
+    "recordist": "etb0023",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/204646613",
+    "date": "2024-03-30",
+    "place": "Leroy, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "gastrophryne-carolinensis",
+  "inat_id": 25078,
+  "group": "frogs",
+  "common": "Eastern Narrow-mouthed Toad",
+  "scientific": "Gastrophryne carolinensis",
+  "summary": "Gastrophryne carolinensis, the eastern narrow-mouthed toad, is a species of microhylid frog. It is a relatively small, toad-like amphibian found in damp, shady habitats. The species is highly fossorial, and feeds primarily on ants. These North American microhylids (Family: Microhylidae) are distinguished from true toads (genus Bufo), and other anurans by their moist, smooth skin, their lack of eardrums or tympana, their distinguishable squat body shape, and the unique fold of skin superior to their eyes....",
+  "wikipedia": "https://en.wikipedia.org/wiki/Gastrophryne carolinensis",
+  "months_AL": {
+   "1": 8,
+   "2": 8,
+   "3": 24,
+   "4": 103,
+   "5": 180,
+   "6": 148,
+   "7": 135,
+   "8": 107,
+   "9": 131,
+   "10": 39,
+   "11": 26,
+   "12": 2
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/44794.m4a?1648758490",
+    "recordist": "Neal Kelso",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/29915554",
+    "date": "2019-06-15",
+    "place": "Huntsville, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1113043.m4a?1719628276",
+    "recordist": "David Dodd",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/225843075",
+    "date": "2024-06-27",
+    "place": "5207 Cambridge Dr, Northport, AL 35473, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/124521.wav?1595718769",
+    "recordist": "Janet Lloyd",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/54332939",
+    "date": "2020-07-25",
+    "place": "Perdido Beach, AL 36530, USA"
+   }
+  ]
+ },
+ {
+  "id": "lithobates-catesbeianus",
+  "inat_id": 65979,
+  "group": "frogs",
+  "common": "American Bullfrog",
+  "scientific": "Lithobates catesbeianus",
+  "summary": "The American bullfrog (Lithobates catesbeianus or Rana catesbeiana), often simply known as the bullfrog in Canada and the United States, is an amphibious frog, a member of the family Ranidae, or \u201ctrue frogs\u201d. This frog has an olive green back and sides blotched with brownish markings and a whitish belly spotted with yellow or grey. The upper lip is often bright green and males have yellow throats. It inhabits large, permanent water bodies, such as swamps,...",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lithobates catesbeianus",
+  "months_AL": {
+   "1": 54,
+   "2": 77,
+   "3": 164,
+   "4": 252,
+   "5": 169,
+   "6": 104,
+   "7": 90,
+   "8": 116,
+   "9": 178,
+   "10": 116,
+   "11": 35,
+   "12": 23
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519633752/medium.jpg",
+   "credit": "(c) Jag Athwal, some rights reserved (CC BY-NC), uploaded by Jag Athwal",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/519633752"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/2184814.wav?1791145368",
+    "recordist": "Don Abrams",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/405881230",
+    "date": "2026-05-14",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/474174.m4a?1655432989",
+    "recordist": "K Denzer",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/122108535",
+    "date": "2022-05-19",
+    "place": "Bayfront Park Dr, Daphne, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/35503.m4a?1648752714",
+    "recordist": "Howard Horne",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/22969539",
+    "date": "2019-04-22",
+    "place": "USA, Mobile, AL 36608, USA"
+   }
+  ]
+ },
+ {
+  "id": "lithobates-clamitans",
+  "inat_id": 65982,
+  "group": "frogs",
+  "common": "North American Green Frog",
+  "scientific": "Lithobates clamitans",
+  "summary": "The green frog (Lithobates clamitans or Rana clamitans) is a species of frog native to the eastern half of the United States and Canada. The two subspecies are the bronze frog and the northern green frog.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lithobates clamitans",
+  "months_AL": {
+   "1": 63,
+   "2": 83,
+   "3": 154,
+   "4": 219,
+   "5": 157,
+   "6": 151,
+   "7": 115,
+   "8": 90,
+   "9": 107,
+   "10": 88,
+   "11": 39,
+   "12": 13
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/384512.wav?1649016909",
+    "recordist": "p-gordon",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/110322953",
+    "date": "2022-04-03",
+    "place": "Troy, AL 36082, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/2001274.wav?1780579956",
+    "recordist": "godshallcs",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/368329575",
+    "date": "2026-04-20",
+    "place": "Eufaula, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1364725.wav?1743987916",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/269048661",
+    "date": "2025-04-05",
+    "place": "Foley, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "pseudacris-collinsorum",
+  "inat_id": 1273326,
+  "group": "frogs",
+  "common": "Collinses' Mountain Chorus Frog",
+  "scientific": "Pseudacris collinsorum",
+  "summary": "The Collinses' mountain chorus frog (Pseudacris collinsorum) is a species of frog in the family Hylidae. It is endemic to hilly regions of the southeastern United States.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Pseudacris collinsorum",
+  "months_AL": {
+   "1": 16,
+   "2": 37,
+   "3": 23,
+   "4": 2,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 1,
+   "12": 0
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/31550.mp3?1551056210",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/20704213",
+    "date": "2019-02-23",
+    "place": "501 Cahaba Farms Dr, Indian Springs Village, AL 35124, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1769629.m4a?1771297723",
+    "recordist": "Jake Scott",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/338980067",
+    "date": "2026-02-15",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1302971.m4a?1739058797",
+    "recordist": "Thistledew",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/261055557",
+    "date": "2025-02-08",
+    "place": "Cheaha State Park, Delta, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "lithobates-sphenocephalus",
+  "inat_id": 60341,
+  "group": "frogs",
+  "common": "Southern Leopard Frog",
+  "scientific": "Lithobates sphenocephalus",
+  "summary": "The southern leopard frog (Lithobates sphenocephalus or Rana sphenocephala) is a species of true frog. It is native to eastern North America from Kansas to New York to Florida. It is also an introduced species in some areas.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lithobates sphenocephalus",
+  "months_AL": {
+   "1": 77,
+   "2": 131,
+   "3": 210,
+   "4": 229,
+   "5": 144,
+   "6": 159,
+   "7": 209,
+   "8": 110,
+   "9": 185,
+   "10": 91,
+   "11": 49,
+   "12": 14
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1215651.m4a?1727532855",
+    "recordist": "John Trent",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/244490955",
+    "date": "2024-09-27",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/162194.wav?1612462057",
+    "recordist": "karenandphillip",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/69058729",
+    "date": "2021-01-27",
+    "place": "Inland Junction, AL"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1792703.m4a?1772744748",
+    "recordist": "Brooke",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/341426131",
+    "date": "2026-02-19",
+    "place": "Alabama, US"
+   }
+  ]
+ },
+ {
+  "id": "dryophytes-avivoca",
+  "inat_id": 1668927,
+  "group": "frogs",
+  "common": "Bird-voiced Treefrog",
+  "scientific": "Dryophytes avivoca",
+  "summary": "The bird-voiced tree frog (Dryophytes avivoca) is a species of frog in the family Hylidae, endemic to the United States. Its natural habitats are temperate forests, shrub-dominated wetlands, and swamps.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dryophytes avivoca",
+  "months_AL": {
+   "1": 0,
+   "2": 1,
+   "3": 13,
+   "4": 19,
+   "5": 33,
+   "6": 15,
+   "7": 25,
+   "8": 12,
+   "9": 14,
+   "10": 9,
+   "11": 2,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40998/medium.jpg",
+   "credit": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/40998"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/2020718.m4a?1781407997",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/371472045",
+    "date": "2026-06-13",
+    "place": "West Blocton, AL 35184, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/627212.m4a?1680128889",
+    "recordist": "scincus",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/152774986",
+    "date": "2023-03-28",
+    "place": "Macon County, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/33911.wav?1554518831",
+    "recordist": "Roger Birkhead",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/22065599",
+    "date": "2019-04-05",
+    "place": "7117 Trotman Rd, Montgomery, AL 36116, USA"
+   }
+  ]
+ },
+ {
+  "id": "anaxyrus-terrestris",
+  "inat_id": 64988,
+  "group": "frogs",
+  "common": "Southern Toad",
+  "scientific": "Anaxyrus terrestris",
+  "summary": "The southern toad (Bufo terrestris or Anaxyrus terrestris) is a true toad native to the southeastern United States, from eastern Louisiana and southeastern Virginia south to Florida. It often lives in areas with sandy soils. It is nocturnal and spends the day in a burrow. Its coloring is usually brown but can be red, gray, or black. It is approximately 8\u00a0cm (3\u00a0inches) long.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Anaxyrus terrestris",
+  "months_AL": {
+   "1": 14,
+   "2": 84,
+   "3": 293,
+   "4": 353,
+   "5": 410,
+   "6": 305,
+   "7": 296,
+   "8": 218,
+   "9": 359,
+   "10": 200,
+   "11": 91,
+   "12": 32
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5479269/medium.jpg",
+   "credit": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/5479269"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1440702.m4a?1746381373",
+    "recordist": "cft",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/278476505",
+    "date": "2025-05-04",
+    "place": "Fairhope, AL 36532, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/391886.m4a?1649828761",
+    "recordist": "J. Rockhold",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/111280822",
+    "date": "2022-04-12",
+    "place": "Northport, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/391885.m4a?1649828724",
+    "recordist": "J. Rockhold",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/111275928",
+    "date": "2022-04-12",
+    "place": "Northport, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "dryophytes-squirellus",
+  "inat_id": 1668859,
+  "group": "frogs",
+  "common": "Squirrel Tree Frog",
+  "scientific": "Dryophytes squirellus",
+  "summary": "The squirrel tree frog (Dryophytes squirellus) is a small species of tree frog found in the southeastern United States, from Texas to Virginia. This is an introduced species in the Bahamas. Squirrel tree frogs are small frogs, about 1.5 inches in length as adults. There are several color variations, but most commonly they are green and look very much like the American green tree frog. They can also be varying shades of yellow or brown, sometimes...",
+  "wikipedia": "https://en.wikipedia.org/wiki/Squirrel_tree_frog",
+  "months_AL": {
+   "1": 18,
+   "2": 50,
+   "3": 98,
+   "4": 131,
+   "5": 179,
+   "6": 207,
+   "7": 158,
+   "8": 152,
+   "9": 223,
+   "10": 157,
+   "11": 62,
+   "12": 33
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72456/medium.jpg",
+   "credit": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/72456"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1112850.m4a?1719614701",
+    "recordist": "David Dodd",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/225810805",
+    "date": "2024-06-27",
+    "place": "5207 Cambridge Dr, Northport, AL 35473, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1602743.wav?1755056537",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/305932595",
+    "date": "2025-08-12",
+    "place": "Orange Beach, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1602744.wav?1755056540",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/305932595",
+    "date": "2025-08-12",
+    "place": "Orange Beach, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "anaxyrus-fowleri",
+  "inat_id": 64977,
+  "group": "frogs",
+  "common": "Fowler's Toad",
+  "scientific": "Anaxyrus fowleri",
+  "summary": "Fowler's toad (Anaxyrus fowleri, formerly Bufo fowleri) is a species of toad in the family Bufonidae. The species is native to North America, where it occurs in much of the eastern United States and parts of adjacent Canada. It was previously considered a subspecies of Woodhouse's toad (Anaxyrus woodhousii, formerly Bufo woodhousii ).",
+  "wikipedia": "https://en.wikipedia.org/wiki/Anaxyrus fowleri",
+  "months_AL": {
+   "1": 3,
+   "2": 18,
+   "3": 149,
+   "4": 550,
+   "5": 650,
+   "6": 529,
+   "7": 374,
+   "8": 325,
+   "9": 404,
+   "10": 134,
+   "11": 25,
+   "12": 2
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54598935/medium.jpg",
+   "credit": "(c) Se\u00e1n\u00edn \u00d3g, some rights reserved (CC BY-NC-ND)",
+   "license": "CC-BY-NC-ND",
+   "source": "https://www.inaturalist.org/photos/54598935"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1824995.m4a?1774581049",
+    "recordist": "ew0096",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/345408279",
+    "date": "2026-03-26",
+    "place": "Edmonds Dr, Grant, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/38311.m4a?1557454920",
+    "recordist": "Alvin Diamond",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/24868486",
+    "date": "2019-05-09",
+    "place": "744 County Rd 1178, Troy, AL 36079, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/969597.wav?1713229254",
+    "recordist": "Jared Higgs",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/207500321",
+    "date": "2024-04-15",
+    "place": "Madison, AL 35756, USA"
+   }
+  ]
+ },
+ {
+  "id": "lithobates-grylio",
+  "inat_id": 65986,
+  "group": "frogs",
+  "common": "Pig Frog",
+  "scientific": "Lithobates grylio",
+  "summary": "The pig frog (Lithobates grylio) is a species of aquatic frog found in the Southeastern United States, from South Carolina to Texas. Some sources also refer to it as the lagoon frog or the southern bullfrog.",
+  "wikipedia": "http://en.wikipedia.org/wiki/Pig_frog",
+  "months_AL": {
+   "1": 0,
+   "2": 2,
+   "3": 6,
+   "4": 14,
+   "5": 10,
+   "6": 13,
+   "7": 6,
+   "8": 6,
+   "9": 5,
+   "10": 4,
+   "11": 3,
+   "12": 2
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1369323.wav?1744308919",
+    "recordist": "Guy Babineau",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/269652344",
+    "date": "2025-04-10",
+    "place": "Dauphin Island, AL 36528, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/39815.m4a?1648755862",
+    "recordist": "Howard Horne",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/25811716",
+    "date": "2019-05-25",
+    "place": "Baldwin County, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1104927.mp3?1719081066",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/224452255",
+    "date": "2024-06-02",
+    "place": "Centennial Trail, Bon Secour National Wildlife Refuge, Gulf Shores, AL 36542, USA"
+   }
+  ]
+ },
+ {
+  "id": "acris-gryllus",
+  "inat_id": 24233,
+  "group": "frogs",
+  "common": "Southern Cricket Frog",
+  "scientific": "Acris gryllus",
+  "summary": "The southern cricket frog or southeastern cricket frog (Acris gryllus) is a small hylid frog native to the Southeastern United States. It is very similar in appearance and habits to the northern cricket frog, Acris crepitans, and was considered formerly conspecific (Dickerson 1906). The scientific name Acris is from the Greek word for locust, and the species name gryllus is Latin for cricket (Georgia Wildlife).",
+  "wikipedia": "https://en.wikipedia.org/wiki/Acris gryllus",
+  "months_AL": {
+   "1": 29,
+   "2": 64,
+   "3": 145,
+   "4": 128,
+   "5": 130,
+   "6": 50,
+   "7": 38,
+   "8": 27,
+   "9": 89,
+   "10": 114,
+   "11": 61,
+   "12": 26
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120437669/medium.jpg",
+   "credit": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/120437669"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/2001262.wav?1780579520",
+    "recordist": "godshallcs",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/368327986",
+    "date": "2026-04-20",
+    "place": "Eufaula, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/778647.wav?1690381643",
+    "recordist": "Eric Cormier",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/175040864",
+    "date": "2023-07-21",
+    "place": "Cullman County, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/38496.mp3?1557608329",
+    "recordist": "Wes Neely",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/24049069",
+    "date": "2019-04-28",
+    "place": "6905 Clements Foley Rd, Northport, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "anaxyrus-americanus",
+  "inat_id": 64968,
+  "group": "frogs",
+  "common": "American Toad",
+  "scientific": "Anaxyrus americanus",
+  "summary": "The American toad (Anaxyrus americanus) is a common species of toad found throughout Canada and the eastern United States. It is divided into three subspecies: the eastern American toad (A. a. americanus), the dwarf American toad (A. a. charlesmithi) and the rare Hudson Bay toad (A. a. copei). Recent taxonomic treatments place this species in the genus Anaxyrus instead of Bufo.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Anaxyrus americanus",
+  "months_AL": {
+   "1": 29,
+   "2": 113,
+   "3": 109,
+   "4": 135,
+   "5": 138,
+   "6": 123,
+   "7": 90,
+   "8": 63,
+   "9": 88,
+   "10": 44,
+   "11": 15,
+   "12": 3
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130773208/medium.jpg",
+   "credit": "(c) Alex Shure, some rights reserved (CC BY-NC), uploaded by Alex Shure",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/130773208"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/950005.m4a?1712016927",
+    "recordist": "madi_richards",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/205016608",
+    "date": "2024-04-01",
+    "place": "Moores Mill Rd NE, Huntsville, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1335242.m4a?1742003880",
+    "recordist": "Jaden Moore",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/265349110",
+    "date": "2025-03-14",
+    "place": "Yahou Lake, Anniston, AL 36207, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1301710.m4a?1738888433",
+    "recordist": "Steven C. Adams",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/260852916",
+    "date": "2025-02-06",
+    "place": "Mountain View Dr, Southside, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "lithobates-palustris",
+  "inat_id": 66002,
+  "group": "frogs",
+  "common": "Pickerel Frog",
+  "scientific": "Lithobates palustris",
+  "summary": "The pickerel frog (Lithobates palustris, formerly Rana palustris) is a small North American frog, characterized by the appearance of seemingly \"hand-drawn\" squares on its dorsal surface.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lithobates palustris",
+  "months_AL": {
+   "1": 6,
+   "2": 34,
+   "3": 48,
+   "4": 34,
+   "5": 52,
+   "6": 68,
+   "7": 77,
+   "8": 102,
+   "9": 94,
+   "10": 57,
+   "11": 13,
+   "12": 6
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32616817/medium.jpeg",
+   "credit": "(c) J.D. Willson, some rights reserved (CC BY-NC), uploaded by J.D. Willson",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/32616817"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1332361.wav?1741827848",
+    "recordist": "John Trent",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/265115353",
+    "date": "2025-03-12",
+    "place": "Bullock County, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1784759.m4a?1772232398",
+    "recordist": "John Trent",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/340506967",
+    "date": "2026-02-27",
+    "place": "Midway, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1791284.wav?1772637473",
+    "recordist": "John Trent",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/341240710",
+    "date": "2026-03-04",
+    "place": "Bullock County, US-AL, US"
+   }
+  ]
+ },
+ {
+  "id": "acris-crepitans",
+  "inat_id": 24230,
+  "group": "frogs",
+  "common": "Northern Cricket Frog",
+  "scientific": "Acris crepitans",
+  "summary": "The northern cricket frog (Acris crepitans) is a species of small hylid frog native to the United States and northeastern Mexico. Despite being members of the tree frog family, they are not arboreal. It has three recognized subspecies.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Acris crepitans",
+  "months_AL": {
+   "1": 7,
+   "2": 42,
+   "3": 100,
+   "4": 100,
+   "5": 49,
+   "6": 17,
+   "7": 8,
+   "8": 14,
+   "9": 64,
+   "10": 65,
+   "11": 32,
+   "12": 7
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172304324/medium.jpg",
+   "credit": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/172304324"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/37462.mp3?1556918699",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/23548693",
+    "date": "2019-04-27",
+    "place": "Bibb County, US-AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1278145.m4a?1735846593",
+    "recordist": "madronyut",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/257151577",
+    "date": "2025-01-02",
+    "place": "Monte Sano State Park, Huntsville, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/21852.wav?1526738826",
+    "recordist": "elizard",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/12603136",
+    "date": "2018-05-18",
+    "place": "Cherokee County, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "dryophytes-gratiosus",
+  "inat_id": 1668962,
+  "group": "frogs",
+  "common": "Barking Tree Frog",
+  "scientific": "Dryophytes gratiosus",
+  "summary": "Dryophytes gratiosus, commonly known as the barking tree frog, is a species of tree frog endemic to the south-eastern United States. Formerly known as Hyla gratiosa.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dryophytes gratiosus",
+  "months_AL": {
+   "1": 3,
+   "2": 4,
+   "3": 20,
+   "4": 70,
+   "5": 118,
+   "6": 112,
+   "7": 113,
+   "8": 101,
+   "9": 133,
+   "10": 70,
+   "11": 15,
+   "12": 3
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/483415.m4a?1656294518",
+    "recordist": "Ken Wills",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/123633864",
+    "date": "2022-06-26",
+    "place": "Joseph Springs Motorway, Anniston, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1958216.wav?1779038923",
+    "recordist": "Eric C. Maxwell",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/361834198",
+    "date": "2026-05-08",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1489161.m4a?1748396053",
+    "recordist": "Howard Horne",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/284707954",
+    "date": "2025-05-27",
+    "place": "Lansdowne Dr, Mobile, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "pseudacris-nigrita",
+  "inat_id": 24261,
+  "group": "frogs",
+  "common": "Southern Chorus Frog",
+  "scientific": "Pseudacris nigrita",
+  "summary": "The southern chorus frog (Pseudacris nigrita) is a species of frog in the family Hylidae, endemic to the southeastern United States. Its natural habitats are temperate forests, temperate grassland, shrub-dominated wetlands, swamps, freshwater marshes, intermittent freshwater marshes, ponds, open excavations, seasonally flooded agricultural land, and canals and ditches. It is threatened by habitat loss.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Pseudacris nigrita",
+  "months_AL": {
+   "1": 3,
+   "2": 4,
+   "3": 5,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 2,
+   "12": 1
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474478179/medium.jpg",
+   "credit": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/474478179"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/58282.m4a?1582124029",
+    "recordist": "Howard Horne",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/38834194",
+    "date": "2020-02-18",
+    "place": "Covington County, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1330493.wav?1741734932",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/264987527",
+    "date": "2025-03-10",
+    "place": "Perdido, AL 36562, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/159133.mp3?1610904538",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/68221925",
+    "date": "2021-01-14",
+    "place": "Eufaula, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "scaphiopus-holbrookii",
+  "inat_id": 26695,
+  "group": "frogs",
+  "common": "Eastern Spadefoot",
+  "scientific": "Scaphiopus holbrookii",
+  "summary": "Scaphiopus holbrookii, commonly known as the eastern spadefoot, is a species of American spadefoot toad (family Scaphiopodidae) endemic to the United States.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Scaphiopus holbrookii",
+  "months_AL": {
+   "1": 9,
+   "2": 14,
+   "3": 28,
+   "4": 45,
+   "5": 73,
+   "6": 32,
+   "7": 31,
+   "8": 19,
+   "9": 18,
+   "10": 27,
+   "11": 13,
+   "12": 7
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120444280/medium.jpg",
+   "credit": "(c) evangrimes, some rights reserved (CC BY), uploaded by evangrimes",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/120444280"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1037083.m4a?1715642546",
+    "recordist": "soulflower_ecological",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/215602676",
+    "date": "2024-05-10",
+    "place": "Little River Canyon National Preserve, DeKalb County, US-AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/513471.m4a?1659534770",
+    "recordist": "hellkite",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/129275354",
+    "date": "2022-08-03",
+    "place": "Dauphin Island, Dauphin Island, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/2185104.m4a?1791162882",
+    "recordist": "cyan0cittaa",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/405952869",
+    "date": "2026-10-04",
+    "place": "Audubon St, Dauphin Island, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "dryophytes-femoralis",
+  "inat_id": 1668953,
+  "group": "frogs",
+  "common": "Pine Woods Tree Frog",
+  "scientific": "Dryophytes femoralis",
+  "summary": "The pine woods tree frog (Dryophytes femoralis) is a species of frog in the family Hylidae, endemic to the southeastern United States.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Pine_woods_tree_frog",
+  "months_AL": {
+   "1": 2,
+   "2": 0,
+   "3": 6,
+   "4": 6,
+   "5": 40,
+   "6": 12,
+   "7": 15,
+   "8": 7,
+   "9": 6,
+   "10": 8,
+   "11": 5,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13261960/medium.jpg",
+   "credit": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/13261960"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1652889.wav?1759158703",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/317550646",
+    "date": "2025-06-22",
+    "place": "Baldwin County, US-AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1958215.wav?1779038920",
+    "recordist": "Eric C. Maxwell",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/361834175",
+    "date": "2026-05-08",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1980880.m4a?1779805890",
+    "recordist": "Howard Horne",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/365416871",
+    "date": "2026-05-22",
+    "place": "Canterbury, Mobile, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "pterophylla-camellifolia",
+  "inat_id": 118951,
+  "group": "katydids",
+  "common": "Common True Katydid",
+  "scientific": "Pterophylla camellifolia",
+  "summary": "Pterophylla camellifolia is a species in the family Tettigoniidae (\"katydids\"), in the order Orthoptera (\"grasshoppers, crickets, katydids\"). Common names include \"common true katydid\", \"northern true katydid\", and \"rough-winged katydid\". Pterophylla camellifolia is found in North America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Pterophylla camellifolia",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 3,
+   "4": 36,
+   "5": 98,
+   "6": 293,
+   "7": 279,
+   "8": 104,
+   "9": 84,
+   "10": 15,
+   "11": 4,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12126645/medium.jpeg",
+   "credit": "(c) Jeremy Collison, some rights reserved (CC BY-NC), uploaded by Jeremy Collison",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/12126645"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/318198.wav?1634651310",
+    "recordist": "Craig&amp;Sharon",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/98702382",
+    "date": "2021-09-29",
+    "place": "Auburn, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/834315.m4a?1697860157",
+    "recordist": "dabbs1x1",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/188338420",
+    "date": "2023-10-20",
+    "place": "Grove Hill, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/2049764.m4a?1782785458",
+    "recordist": "Zae",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/376728820",
+    "date": "2026-06-29",
+    "place": "Honda Dr, Lincoln, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "microcentrum-retinerve",
+  "inat_id": 48122,
+  "group": "katydids",
+  "common": "Lesser Anglewing",
+  "scientific": "Microcentrum retinerve",
+  "summary": "Microcentrum retinerve is a species in the family Tettigoniidae (\"katydids\"), in the order Orthoptera (\"grasshoppers, crickets, katydids\"). A common name for Microcentrum retinerve is \"lesser angle-winged katydid\". Microcentrum retinerve is found in North America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Microcentrum retinerve",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 2,
+   "5": 3,
+   "6": 7,
+   "7": 28,
+   "8": 166,
+   "9": 322,
+   "10": 108,
+   "11": 20,
+   "12": 4
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5088034/medium.jpeg",
+   "credit": "(c) Stott Noble, some rights reserved (CC BY-NC), uploaded by Stott Noble",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/5088034"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1162899.wav?1723697090",
+    "recordist": "Philip Vanbergen",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/235852988",
+    "date": "2024-08-11",
+    "place": "Hoover, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "microcentrum-rhombifolium",
+  "inat_id": 84752,
+  "group": "katydids",
+  "common": "Greater Anglewing",
+  "scientific": "Microcentrum rhombifolium",
+  "summary": "Microcentrum rhombifolium is a species in the family Tettigoniidae (\"katydids\"), in the order Orthoptera (\"grasshoppers, crickets, katydids\"). Common names are \"greater angle-wing katydid\" and \"broad-winged katydid\". Microcentrum rhombifolium is found in North America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Microcentrum rhombifolium",
+  "months_AL": {
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 2,
+   "6": 3,
+   "7": 8,
+   "8": 15,
+   "9": 28,
+   "10": 16,
+   "11": 8,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206344/medium.JPG",
+   "credit": "(c) 106584015630019574849, some rights reserved (CC BY-NC-SA), uploaded by 106584015630019574849",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/206344"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1646572.wav?1758694413",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/316223185",
+    "date": "2025-09-23",
+    "place": "United States"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1646573.wav?1758694417",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/316223185",
+    "date": "2025-09-23",
+    "place": "United States"
+   }
+  ]
+ },
+ {
+  "id": "orchelimum-pulchellum",
+  "inat_id": 122041,
+  "group": "katydids",
+  "common": "Handsome Meadow Katydid",
+  "scientific": "Orchelimum pulchellum",
+  "summary": "Orchelimum pulchellum, the handsome meadow katydid, is a species of meadow katydid in the family Tettigoniidae. It is found in North America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Orchelimum pulchellum",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 2,
+   "7": 20,
+   "8": 46,
+   "9": 67,
+   "10": 41,
+   "11": 8,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/743512930/medium.jpg",
+   "credit": "(c) fredericb, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/743512930"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/289540.wav?1628525071",
+    "recordist": "gr0mmy",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/90547004",
+    "date": "2021-08-08",
+    "place": "Trussville, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "neoconocephalus-triops",
+  "inat_id": 225604,
+  "group": "katydids",
+  "common": "Broad-tipped Conehead",
+  "scientific": "Neoconocephalus triops",
+  "summary": "Neoconocephalus triops, the broad-tipped conehead, is a species of conehead in the family Tettigoniidae. It is found in the Caribbean and North America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neoconocephalus triops",
+  "months_AL": {
+   "1": 9,
+   "2": 36,
+   "3": 93,
+   "4": 47,
+   "5": 32,
+   "6": 20,
+   "7": 41,
+   "8": 84,
+   "9": 382,
+   "10": 220,
+   "11": 34,
+   "12": 11
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558651/medium.jpg",
+   "credit": "(c) Jessica, some rights reserved (CC BY), uploaded by Jessica",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/558651"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/993553.m4a?1714265435",
+    "recordist": "jobarton1028",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/210531863",
+    "date": "2024-04-27",
+    "place": "Paint Rock, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "orchelimum-erythrocephalum",
+  "inat_id": 326091,
+  "group": "katydids",
+  "common": "Red-headed Meadow Katydid",
+  "scientific": "Orchelimum erythrocephalum",
+  "summary": "Orchelimum erythrocephalum is a species of katydid with the common name Red-headed Meadow Katydid. It was described by William T. Davis in 1905.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Orchelimum erythrocephalum",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 6,
+   "8": 12,
+   "9": 40,
+   "10": 21,
+   "11": 5,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467435/medium.jpg",
+   "credit": "(c) cotinis, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/467435"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/2144657.wav?1788398249",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/396806991",
+    "date": "2026-08-30",
+    "place": "Foley, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "neocurtilla-hexadactyla",
+  "inat_id": 225607,
+  "group": "crickets",
+  "common": "Northern Mole Cricket",
+  "scientific": "Neocurtilla hexadactyla",
+  "summary": "Neocurtilla hexadactyla, commonly known as the northern mole cricket, is a species of mole cricket that is native to eastern North America. It also occurs in South America, where it may be an adventive species. Its range extends from the southern reaches of eastern Canada and through the eastern and central United States.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neocurtilla hexadactyla",
+  "months_AL": {
+   "1": 2,
+   "2": 1,
+   "3": 4,
+   "4": 2,
+   "5": 3,
+   "6": 1,
+   "7": 3,
+   "8": 13,
+   "9": 35,
+   "10": 15,
+   "11": 5,
+   "12": 0
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1661907.mp3?1759965349",
+    "recordist": "Mystery Saunders",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/319658853",
+    "date": "2025-10-08",
+    "place": "Weeks Bay Pitcher Plant Bog and Kurt G. Wintermeyer Nature Trail"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/46783.wav?1567986283",
+    "recordist": "Jordan Broadhead",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/32381018",
+    "date": "2019-09-01",
+    "place": "Jefferson, Alabama, United States"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/820398.m4a?1695858209",
+    "recordist": "michelle_simpson",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/185212716",
+    "date": "2023-09-27",
+    "place": "Midway, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "velarifictorus-micado",
+  "inat_id": 146737,
+  "group": "crickets",
+  "common": "Japanese Burrowing Cricket",
+  "scientific": "Velarifictorus micado",
+  "summary": "Velarifictorus micado is a cricket in the subfamily Gryllinae (\"field crickets\"), in the family Gryllidae (\"true crickets\"). A common name for Velarifictorus micado is \"Japanese burrowing cricket\". The distribution range of Velarifictorus micado includes North America and Southern Asia.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Velarifictorus micado",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 2,
+   "5": 1,
+   "6": 4,
+   "7": 13,
+   "8": 49,
+   "9": 98,
+   "10": 17,
+   "11": 2,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4649712/medium.jpg",
+   "credit": "(c) John Himmelman, some rights reserved (CC BY-NC-ND), uploaded by John Himmelman",
+   "license": "CC-BY-NC-ND",
+   "source": "https://www.inaturalist.org/photos/4649712"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/2147243.m4a?1788611444",
+    "recordist": "encbyancey",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/397418283",
+    "date": "2026-09-05",
+    "place": "South Eastlake, Birmingham, AL 35206, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/2160072.wav?1789502457",
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/400540528",
+    "date": "2026-09-12",
+    "place": "Hanceville, AL 35077, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/295870.m4a?1629773338",
+    "recordist": "John Trent",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/92315867",
+    "date": "2021-08-23",
+    "place": "CR-47, Midway, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "hapithus-saltator",
+  "inat_id": 780312,
+  "group": "crickets",
+  "common": "Jumping Bush Cricket",
+  "scientific": "Hapithus saltator",
+  "summary": "...",
+  "wikipedia": "http://en.wikipedia.org/wiki/Hapithus_saltator",
+  "months_AL": {
+   "1": 2,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 2,
+   "6": 3,
+   "7": 13,
+   "8": 22,
+   "9": 36,
+   "10": 30,
+   "11": 8,
+   "12": 3
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2601721/medium.JPG",
+   "credit": "(c) Nick Block, some rights reserved (CC BY), uploaded by Nick Block",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/2601721"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1631483.mp3?1757514221",
+    "recordist": "Bill Grantham",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/312905457",
+    "date": "2025-09-10",
+    "place": "Ramer, AL 36069, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/830077.m4a?1697240187",
+    "recordist": "tpwitcher",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/187428212",
+    "date": "2023-10-13",
+    "place": "Tuscumbia, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1656901.m4a?1759539745",
+    "recordist": "bgitzen",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/318524387",
+    "date": "2025-10-03",
+    "place": "Green St, Auburn, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "anaxipha-rosamacula",
+  "inat_id": 460377,
+  "group": "crickets",
+  "common": "Pink-spotted Trig",
+  "scientific": "Anaxipha rosamacula",
+  "summary": "",
+  "wikipedia": null,
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1467142.m4a?1747464106",
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/281686869",
+    "date": "2025-05-17",
+    "place": "Smoke Rise, AL 35180, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1570395.m4a?1752654659",
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/298368641",
+    "date": "2025-07-16",
+    "place": "Smoke Rise, AL 35180, USA"
+   }
+  ]
+ },
+ {
+  "id": "oecanthus-latipennis",
+  "inat_id": 129233,
+  "group": "crickets",
+  "common": "Broad-winged tree cricket",
+  "scientific": "Oecanthus latipennis",
+  "summary": "...",
+  "wikipedia": "https://en.wikipedia.org/wiki/Oecanthus latipennis",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 9,
+   "8": 28,
+   "9": 16,
+   "10": 3,
+   "11": 0,
+   "12": 0
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/25697.m4a?1648690166",
+    "recordist": "John Trent",
+    "license": "CC-BY-NC-ND",
+    "source": "https://www.inaturalist.org/observations/16090265",
+    "date": "2018-08-31",
+    "place": "4801\u20135011 Pleasant Hill Rd, Midway, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "oecanthus-argentinus",
+  "inat_id": 226219,
+  "group": "crickets",
+  "common": "Prairie Tree Cricket",
+  "scientific": "Oecanthus argentinus",
+  "summary": "Oecanthus argentinus, the prairie tree cricket, is a species of tree cricket in the family Gryllidae. It is found in North America and South America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Oecanthus argentinus",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 4,
+   "10": 0,
+   "11": 1,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11124861/medium.jpg",
+   "credit": "(c) Lee Hoy, some rights reserved (CC BY-NC-ND), uploaded by Lee Hoy",
+   "license": "CC-BY-NC-ND",
+   "source": "https://www.inaturalist.org/photos/11124861"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/333759.m4a?1638293672",
+    "recordist": "Michelle Reynolds",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/102247210",
+    "date": "2021-11-30",
+    "place": "Ruffner Mountain Nature Preserve, Birmingham, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "gryllus-rubens",
+  "inat_id": 322913,
+  "group": "crickets",
+  "common": "Southeastern Field Cricket",
+  "scientific": "Gryllus rubens",
+  "summary": "Gryllus rubens, commonly known as the southeastern field cricket, is one of many cricket species known as a field cricket. It occurs throughout most of the Southeastern United States. Its northern range spans from southern Delaware to the extreme southeastern corner of Kansas, with a southern range stretching from Florida to eastern Texas.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Gryllus rubens",
+  "months_AL": {
+   "1": 0,
+   "2": 1,
+   "3": 2,
+   "4": 3,
+   "5": 3,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 4,
+   "10": 2,
+   "11": 0,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5105851/medium.jpeg",
+   "credit": "(c) Kevin Metcalf, some rights reserved (CC BY-NC), uploaded by Kevin Metcalf",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/5105851"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1333518.m4a?1741909987",
+    "recordist": "maddiehluvslzrds",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/265224153",
+    "date": "2025-03-13",
+    "place": "Jacksonville, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "neoscapteriscus-borellii",
+  "inat_id": 523711,
+  "group": "crickets",
+  "common": "Southern Mole Cricket",
+  "scientific": "Neoscapteriscus borellii",
+  "summary": "Neoscapteriscus borellii, the southern mole cricket, is a species of mole cricket in the family Gryllotalpidae.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neoscapteriscus borellii",
+  "months_AL": {
+   "1": 1,
+   "2": 1,
+   "3": 6,
+   "4": 5,
+   "5": 6,
+   "6": 6,
+   "7": 5,
+   "8": 7,
+   "9": 15,
+   "10": 7,
+   "11": 6,
+   "12": 2
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/911724/medium.JPG",
+   "credit": "(c) Royal Tyler, some rights reserved (CC BY-NC-SA), uploaded by Royal Tyler",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/911724"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1202116.m4a?1726446393",
+    "recordist": "Coral Q",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/241994856",
+    "date": "2024-09-15",
+    "place": "Huntsville, AL 35805, USA"
+   }
+  ]
+ },
+ {
+  "id": "pictonemobius-ambitiosus",
+  "inat_id": 1360980,
+  "group": "crickets",
+  "common": "Ambitious Ground Cricket",
+  "scientific": "Pictonemobius ambitiosus",
+  "summary": "",
+  "wikipedia": null,
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/180200229/medium.jpg",
+   "credit": "(c) aispinsects, some rights reserved (CC BY), uploaded by aispinsects",
+   "license": "CC-BY",
+   "source": "https://www.inaturalist.org/photos/180200229"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1603691.wav?1755146420",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/306176648",
+    "date": "2025-08-13",
+    "place": "United States"
+   }
+  ]
+ },
+ {
+  "id": "neotibicen-robinsonianus",
+  "inat_id": 469274,
+  "group": "cicadas",
+  "common": "Robinson's Annual Cicada",
+  "scientific": "Neotibicen robinsonianus",
+  "summary": "Neotibicen robinsonianus, commonly called Robinson's cicada, is a species of large bodied annual cicada in the genus Neotibicen. It is native to the Eastern United States.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neotibicen robinsonianus",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 12,
+   "7": 52,
+   "8": 30,
+   "9": 6,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53162276/medium.jpeg",
+   "credit": "(c) strix_v, some rights reserved (CC BY-NC), uploaded by strix_v",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/53162276"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1568671.m4a?1752522602",
+    "recordist": "thr33m0",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/297976841",
+    "date": "2025-07-14",
+    "place": "Belmont Dr, Moody, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1567983.m4a?1752459069",
+    "recordist": "Zae",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/297783271",
+    "date": "2025-07-13",
+    "place": "McDaniel Ave, Anniston, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1586198.wav?1753803287",
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/302084062",
+    "date": "2025-07-29",
+    "place": "Blount County, US-AL, US"
+   }
+  ]
+ },
+ {
+  "id": "magicicada-tredecim",
+  "inat_id": 83853,
+  "group": "cicadas",
+  "common": "Riley's 13-Year Cicada",
+  "scientific": "Magicicada tredecim",
+  "summary": "Magicicada tredecim is a 13-year species of periodical cicada, closely related to the newly discovered 13-year species Magicicada neotredecim, from which it differs in male song pitch, female song pitch preferences, abdomen color, and mitochondrial DNA. Both M. tredecim and M. neotredecim are closely related to the 17-year species M. septendecim, which was identified by Linnaeus in 1758; these three species are often grouped together under the name decim periodical cicadas.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Magicicada tredecim",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 23,
+   "5": 391,
+   "6": 18,
+   "7": 2,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1032382.mp3?1715455168",
+    "recordist": "Jordan Broadhead",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/215072162",
+    "date": "2024-05-11",
+    "place": "Decatur, AL 35603, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1026037.wav?1715187336",
+    "recordist": "Damien Simbeck",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/214416500",
+    "date": "2024-05-08",
+    "place": "Killen, AL 35645, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1065631.m4a?1716908299",
+    "recordist": "Kristi Zoebelein",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/218904158",
+    "date": "2024-05-28",
+    "place": "Hayden, AL 35079, USA"
+   }
+  ]
+ },
+ {
+  "id": "neocicada-hieroglyphica",
+  "inat_id": 244017,
+  "group": "cicadas",
+  "common": "Hieroglyphic Cicada",
+  "scientific": "Neocicada hieroglyphica",
+  "summary": "Neocicada hieroglyphica, the hieroglyphic cicada, is a species of cicada in the family Cicadidae. It is found in Central America and North America.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neocicada hieroglyphica",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 42,
+   "6": 120,
+   "7": 51,
+   "8": 3,
+   "9": 1,
+   "10": 1,
+   "11": 0,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21554097/medium.jpg",
+   "credit": "(c) Mary Keim, some rights reserved (CC BY-NC-SA)",
+   "license": "CC-BY-NC-SA",
+   "source": "https://www.inaturalist.org/photos/21554097"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1532736.m4a?1750373611",
+    "recordist": "Moses J. Michelsohn",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/291063336",
+    "date": "2025-06-19",
+    "place": "Alabama, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1932012.wav?1778116697",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/359085367",
+    "date": "2026-05-06",
+    "place": "Orange Beach, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/2001281.wav?1780580244",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/368330529",
+    "date": "2026-05-27",
+    "place": "Orange Beach, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "neotibicen-tibicen",
+  "inat_id": 469282,
+  "group": "cicadas",
+  "common": "Swamp Cicada",
+  "scientific": "Neotibicen tibicen",
+  "summary": "Neotibicen tibicen, known generally as the swamp cicada or morning cicada, is a species of cicada in the family Cicadidae. It used to be known as Tibicen chloromerus. It is widespread across much of the eastern and central United States and portions of southeastern Canada.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neotibicen_tibicen",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 3,
+   "6": 62,
+   "7": 209,
+   "8": 292,
+   "9": 154,
+   "10": 4,
+   "11": 2,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146919356/medium.jpg",
+   "credit": "(c) Jim Danzi, some rights reserved (CC BY-NC), uploaded by Jim Danzi",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/146919356"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1594497.wav?1754414791",
+    "recordist": "Jonathan Gilmer",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/304022430",
+    "date": "2025-07-24",
+    "place": "United States"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/128825.wav?1596982492",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/55912025",
+    "date": "2020-08-09",
+    "place": "Birmingham, AL 35226, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1162901.wav?1723697484",
+    "recordist": "Philip Vanbergen",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/235853407",
+    "date": "2024-08-11",
+    "place": "Hoover, AL, USA"
+   }
+  ]
+ },
+ {
+  "id": "megatibicen-grossus",
+  "inat_id": 1496502,
+  "group": "cicadas",
+  "common": "Northern Dusk-singing Cicada",
+  "scientific": "Megatibicen grossus",
+  "summary": "Megatibicen grossus, formerly Megatibicen auletes, commonly called the northern dusk-singing cicada, giant oak cicada, or southern oak cicada, is a species of cicada in the family Cicadidae. It is found in the eastern United States and portions of southeastern Canada.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Megatibicen grossus",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 5,
+   "6": 50,
+   "7": 163,
+   "8": 294,
+   "9": 199,
+   "10": 22,
+   "11": 5,
+   "12": 1
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228692165/medium.jpg",
+   "credit": "(c) laurengwooley, some rights reserved (CC BY-NC)",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/228692165"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/134450.mp3?1599265549",
+    "recordist": "Kristin A. Bakkegard",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/58559301",
+    "date": "2020-09-04",
+    "place": "Hoover, AL 35226, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/134022.m4a?1599007140",
+    "recordist": "abbymartin",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/58295930",
+    "date": "2020-09-01",
+    "place": "Homewood, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1197650.m4a?1725927953",
+    "recordist": "nancyjane1961",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/240854489",
+    "date": "2024-09-09",
+    "place": "Covey Chase, Tuscaloosa, AL, US"
+   }
+  ]
+ },
+ {
+  "id": "magicicada-tredecassini",
+  "inat_id": 244334,
+  "group": "cicadas",
+  "common": "Cassin's 13-Year Cicada",
+  "scientific": "Magicicada tredecassini",
+  "summary": "Magicicada tredecassini is a species of periodical cicada endemic to the United States. It has a 13-year lifecycle but is otherwise indistinguishable from the 17-year periodical cicada Magicicada cassini. The two species are usually discussed together as \"cassini periodical cicadas\" or \"cassini-type periodical cicadas.\" Unlike other periodical cicadas, cassini-type males may synchronize their courting behavior so that tens of thousands of males sing and fly in unison.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Magicicada tredecassini",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 78,
+   "6": 4,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282974626/medium.jpg",
+   "credit": "(c) cpar, some rights reserved (CC BY-NC), uploaded by cpar",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/282974626"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1066510.wav?1716943334",
+    "recordist": "Mary Shew",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/219015811",
+    "date": "2024-05-27",
+    "place": "Gaylesville, AL 35973, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1030289.m4a?1715378920",
+    "recordist": "Thistledew",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/214880239",
+    "date": "2024-05-10",
+    "place": "Cheaha State Park, Delta, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1033984.mp3?1715521736",
+    "recordist": "Jordan Broadhead",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/215244743",
+    "date": "2024-05-11",
+    "place": "Decatur, AL 35603, USA"
+   }
+  ]
+ },
+ {
+  "id": "neotibicen-pruinosus",
+  "inat_id": 469268,
+  "group": "cicadas",
+  "common": "Scissor Grinder",
+  "scientific": "Neotibicen pruinosus",
+  "summary": "Neotibicen pruinosus, the scissor grinder, is a species of cicada in the family Cicadidae.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Neotibicen pruinosus",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 2,
+   "6": 5,
+   "7": 21,
+   "8": 44,
+   "9": 16,
+   "10": 2,
+   "11": 0,
+   "12": 0
+  },
+  "photo": null,
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/134107.m4a?1599068309",
+    "recordist": "gracen_fisk",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/58346892",
+    "date": "2020-09-01",
+    "place": "Homewood, AL, USA"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1517346.m4a?1749603970",
+    "recordist": "Zae",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/288620775",
+    "date": "2025-06-10",
+    "place": "McDaniel Ave, Anniston, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/2091704.mp3?1785200065",
+    "recordist": "Jordan Broadhead",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/385821383",
+    "date": "2026-07-27",
+    "place": "Morris, AL 35116, USA"
+   }
+  ]
+ },
+ {
+  "id": "megatibicen-pronotalis",
+  "inat_id": 740041,
+  "group": "cicadas",
+  "common": "Walker's Annual Cicada",
+  "scientific": "Megatibicen pronotalis",
+  "summary": "...",
+  "wikipedia": "http://en.wikipedia.org/wiki/Megatibicen_pronotalis",
+  "months_AL": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 4,
+   "8": 7,
+   "9": 4,
+   "10": 2,
+   "11": 0,
+   "12": 0
+  },
+  "photo": {
+   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9868590/medium.jpg",
+   "credit": "(c) Dan Johnson, some rights reserved (CC BY-NC), uploaded by Dan Johnson",
+   "license": "CC-BY-NC",
+   "source": "https://www.inaturalist.org/photos/9868590"
+  },
+  "sounds": [
+   {
+    "url": "https://static.inaturalist.org/sounds/1595686.m4a?1754512773",
+    "recordist": "Zae",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/304318924",
+    "date": "2025-08-06",
+    "place": "Huntsville, AL, US"
+   },
+   {
+    "url": "https://static.inaturalist.org/sounds/1587723.m4a?1753922792",
+    "recordist": "Zae",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/302495777",
+    "date": "2025-07-30",
+    "place": "Scottsboro, AL, US"
+   }
+  ]
+ }
+]

@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Critter Whisperer</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif;background:#f4f7f2;color:#223}
+header{background:#2f5d50;color:#fff;padding:14px 16px}header h1{margin:0;font-size:1.4em}header small{opacity:.8}
+.bar{padding:10px 12px;position:sticky;top:0;background:#f4f7f2;z-index:2}
+input,select{font-size:1em;padding:10px;border-radius:10px;border:1px solid #bbb;width:100%;box-sizing:border-box;margin-bottom:6px}
+.chips button{border:0;border-radius:20px;padding:8px 12px;margin:2px;background:#dfe9e3;font-size:.95em}.chips .on{background:#2f5d50;color:#fff}
+.card{background:#fff;margin:10px 12px;border-radius:14px;box-shadow:0 1px 4px #0002;overflow:hidden}
+.card img{width:100%;max-height:220px;object-fit:cover}.in{padding:12px}.sci{font-style:italic;color:#666}
+.cr{font-size:.75em;color:#777}audio{width:100%;margin-top:6px}.months{display:flex;gap:2px;align-items:flex-end;height:30px}.months div{flex:1;background:#7fb59f}
+nav{text-align:center;padding:12px}a{color:#2f5d50}details{margin-top:6px}
+</style></head><body>
+<header><h1>🐸 Critter Whisperer</h1><small>Frogs, toads & singing insects</small></header>
+<div class="bar"><select id="state"></select><input id="q" placeholder="Search by name…"><div class="chips" id="chips"></div></div>
+<div id="list"></div><nav><a href="#" id="credlink">Credits & licenses</a></nav><div id="credits" hidden></div>
+<script>
+const G={all:'All',frogs:'Frogs & toads',crickets:'Crickets',katydids:'Katydids',cicadas:'Cicadas',other:'Other'};
+const M='JFMAMJJASOND';let S=[],ST={},grp='all';
+Promise.all([fetch('data/species.json').then(r=>r.json()),fetch('data/states.json').then(r=>r.json())]).then(([s,st])=>{S=s;ST=st;
+ state.innerHTML=Object.entries(st).map(([k,v])=>`<option value=${k}>${v.name}</option>`).join('');
+ chips.innerHTML=Object.entries(G).map(([k,v])=>`<button data-g=${k}>${v}</button>`).join('');
+ chips.onclick=e=>{if(e.target.dataset.g){grp=e.target.dataset.g;draw()}};q.oninput=draw;state.onchange=draw;draw();credits.innerHTML=cred();});
+const esc=t=>String(t??'').replace(/[&<>"]/g,c=>'&#'+c.charCodeAt(0)+';');
+function draw(){[...chips.children].forEach(b=>b.className=b.dataset.g==grp?'on':'');const ids=new Set(ST[state.value].species),t=q.value.toLowerCase();
+ list.innerHTML=S.filter(s=>ids.has(s.id)&&(grp=='all'||s.group==grp)&&(s.common+' '+s.scientific).toLowerCase().includes(t)).map(card).join('')||'<p style="padding:16px">No matches.</p>'}
+function card(s){const h=s.months_AL,mx=Math.max(1,...Object.values(h));
+ return `<div class=card>${s.photo?`<img loading=lazy src="${s.photo.url}" alt="${esc(s.common)}"><div class="cr in" style="padding:2px 12px">${esc(s.photo.credit)} · <a href="${s.photo.source}">source</a></div>`:''}
+ <div class=in><b>${esc(s.common)}</b> <span class=sci>${esc(s.scientific)}</span> <span class=cr>· ${G[s.group]}</span>
+ <p style="font-size:.9em">${esc(s.summary.slice(0,260))}${s.summary.length>260?'…':''} ${s.wikipedia?`<a href="${s.wikipedia}">Wikipedia</a>`:''}</p>
+ <div class=cr>When it's observed in ${ST[state.value].name} (iNaturalist records by month):</div>
+ <div class=months>${Object.values(h).map((v,i)=>`<div title="${M[i]}: ${v}" style="height:${4+26*v/mx}px"></div>`).join('')}</div><div class=cr style="display:flex">${[...M].map(m=>`<span style="flex:1;text-align:center">${m}</span>`).join('')}</div>
+ ${s.sounds.map((a,i)=>`<audio controls preload=none src="${a.url}"></audio><div class=cr>Recording ${i+1}: ${esc(a.recordist)}, ${a.license}, ${esc(a.place||'')} ${a.date||''} · <a href="${a.source}">iNaturalist</a></div>`).join('')}</div></div>`}
+function cred(){return `<div class=in><h2>Credits</h2><p>Species lists and recordings from <a href="https://www.inaturalist.org">iNaturalist</a> research-grade observations. Text summaries from Wikipedia (CC BY-SA). Each item below is used under the license shown.</p>`+
+ S.map(s=>`<p class=cr><b>${esc(s.common)}</b><br>${s.sounds.map(a=>`Sound: ${esc(a.recordist)} (${a.license}) <a href="${a.source}">${a.source}</a>`).join('<br>')}${s.photo?`<br>Photo: ${esc(s.photo.credit)} <a href="${s.photo.source}">${s.photo.source}</a>`:''}</p>`).join('')+'</div>'}
+credlink.onclick=e=>{e.preventDefault();credits.hidden=!credits.hidden;credits.scrollIntoView()};
+</script></body></html>
