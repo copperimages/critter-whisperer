@@ -2234,14 +2234,6 @@
   },
   "sounds": [
    {
-    "url": "sounds/neotibicen-pruinosus-1.mp3",
-    "recordist": "gracen_fisk",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/58346892",
-    "date": "2020-09-01",
-    "place": "Homewood, AL, USA"
-   },
-   {
     "url": "sounds/neotibicen-pruinosus-2.mp3",
     "recordist": "Zae",
     "license": "CC-BY-NC",
