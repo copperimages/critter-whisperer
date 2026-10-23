@@ -84,14 +84,6 @@
   },
   "sounds": [
    {
-    "url": "sounds/pseudacris-crucifer-1.mp3",
-    "recordist": "Seamus O'Brien",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/201628217",
-    "date": "2024-03-07",
-    "place": "Alabama, US"
-   },
-   {
     "url": "sounds/pseudacris-crucifer-2.mp3",
     "recordist": "maddiehluvslzrds",
     "license": "CC-BY-NC",
@@ -1960,11 +1952,11 @@
   "sounds": [
    {
     "url": "sounds/magicicada-tredecim-1.mp3",
-    "recordist": "Jordan Broadhead",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/215072162",
-    "date": "2024-05-11",
-    "place": "Decatur, AL 35603, USA"
+    "recordist": "Karen Burns Ball",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/215290795",
+    "date": "2024-05-12",
+    "place": "Natchez Trace Parkway, Houston, MS, US"
    },
    {
     "url": "sounds/magicicada-tredecim-2.mp3",
@@ -1976,11 +1968,11 @@
    },
    {
     "url": "sounds/magicicada-tredecim-3.mp3",
-    "recordist": "John Morgan",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/215000124",
-    "date": "2024-05-11",
-    "place": "Greene County, US-AL, US"
+    "recordist": "Donna Bennett",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/215324341",
+    "date": "2024-05-12",
+    "place": "Vinson Hwy SE, Milledgeville, GA, US"
    }
   ]
  },
@@ -2185,14 +2177,6 @@
     "source": "https://www.inaturalist.org/observations/214676764",
     "date": "2024-05-09",
     "place": "Sheffield, AL, USA"
-   },
-   {
-    "url": "sounds/magicicada-tredecassini-2.mp3",
-    "recordist": "Thistledew",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/214880239",
-    "date": "2024-05-10",
-    "place": "Cheaha State Park, Delta, AL, US"
    },
    {
     "url": "sounds/magicicada-tredecassini-3.mp3",
